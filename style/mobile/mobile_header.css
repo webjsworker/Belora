@@ -1,0 +1,251 @@
+.header {
+    width: 100%;
+    height: auto;
+    margin-top: 4.5vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2vw;
+    position: relative;
+}
+
+.header__logo-pic {
+    width: 37.5vw;
+    height: auto;
+    transition-duration: 0.5s;
+}
+
+.header__logo-pic img {
+    width: 100%;
+    height: auto;
+}
+
+.header__logo-pic:hover,
+.header__logo-pic:active,
+.header__logo-pic:focus {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.header__nav {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+}
+
+.header__list {
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header__item a {
+    color: black;
+    text-decoration: none;
+}
+
+.header__item {}
+
+.header__link {
+    transition-duration: 0.5s;
+}
+
+.header__link:hover,
+.header__link:active,
+.header__link:focus {
+    cursor: pointer;
+    border-bottom: 2px solid black;
+    opacity: 0.7;
+}
+
+.header__contacts {
+    width: 25vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__call {
+    width: 12vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    font-weight: 500;
+    color: #3223BE;
+    border: 1px solid #3223BE;
+    transition-duration: 0.5s;
+}
+
+.header__call:hover,
+.header__call:focus,
+.header__call:active {
+
+    color: white;
+    background-color: #3223BE;
+}
+
+.header__links {
+    height: 3.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.header__links span:last-child {
+    text-shadow: 1px 2px 3px gray;
+}
+
+.header__menu_mobile {
+    width: 25%;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu_mobile_call {
+    width: 6vw;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vw;
+}
+
+.header__menu_mobile_call img {
+    width: 100%;
+    height: auto;
+}
+
+.header__menu_mobile_call:hover,
+.header__menu_mobile_call:focus,
+.header__menu_mobile_call:active {
+    opacity: 0.5;
+
+}
+
+.header__burger {
+    width: 8vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__burger_line {
+    width: 8vw;
+    height: 35px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.header__burger_line span:nth-of-type(2) {
+    top: calc(50% - 7px);
+}
+
+.header__burger_line span:nth-of-type(3) {
+    top: calc(50% + 7px);
+}
+
+.header__burger_line.active span:nth-of-type(1) {
+    display: none;
+}
+
+.header__burger_line.active span:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);
+}
+
+.header__burger_line.active span:nth-of-type(3) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg);
+}
+
+.header__burger_line span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3223BE;
+    transition: all 0.5s;
+}
+
+.header__menu {
+    position: absolute;
+    width: 100%;
+    height: 150vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 10vw;
+    z-index: 15;
+    padding: 15vw 8vw;
+    background-color: white;
+    transform: translateX(-100%);
+    transition: transform 1s;
+}
+
+.header__menu.active {
+    transform: translateX(0);
+}
+
+.header__nav {
+    width: 100%;
+    height: auto;
+    font-size: 5vw;
+    margin-left: 7.5vw;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: column;
+    gap: 6vw;
+    width: 100%;
+    height: auto;
+    margin-top: 5vw;
+}
+
+.header__list li {
+    font-size: 6vw;
+    cursor: pointer;
+    border-bottom: none;
+}
+
+.header__contacts {
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5vw;
+    padding: 2vw 5vw;
+    margin-bottom: 5vw;
+}
+
+.header__call {
+    width: 90%;
+    height: 15vw;
+    font-size: 5vw;
+}
+
+.header__links {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    font-size: 7vw;
+}

@@ -1,0 +1,28 @@
+.banner {
+    width: 78vw;
+    height: 13vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3.5vw;
+    border: 1px solid #DEDEDE;
+    background: linear-gradient(to right, #FFFFFF 10%, rgba(250, 0, 0, 0) 50%), 
+    url(../../assets/desktop/banner2.png);
+    background-repeat: no-repeat;
+    background-size: 41% 100%;  /* background-size: 41% 100%; */
+    background-position: right;
+} /* rgba(250, 247, 247, 100), rgba(250, 0, 0, 0)) */
+
+.banner__title div {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+
+.banner__title div span {
+    margin-left: 3.45vw;
+    line-height: 1.1em;
+    font-size: 1.39vw;
+}

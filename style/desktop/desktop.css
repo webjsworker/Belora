@@ -1,0 +1,56 @@
+@import url("./desktop_header.css");
+@import url("./desktop_intro.css");
+@import url("./desktop_about.css");
+@import url("./desktop_parts.css");
+@import url("./desktop_trailers.css");
+@import url("./desktop_banner.css");
+@import url("./desktop_delivery.css");
+@import url("./desktop_help.css");
+@import url("./desktop_brand.css");
+@import url("./desktop_banner-parts.css");
+@import url("./desktop_contact.css");
+@import url("./desktop_footer.css");
+@import url("./desktop_pop-up.css");
+@import url("./desktop_thanks.css");
+@import url("./desktop_call.css");
+@import url("./desktop_price.css");
+
+.wrapper {
+    width: 71vw;
+    height: auto;
+    display: flex;
+    align-items: start;
+    margin: 0 auto;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+body {}
+
+.title {
+    position: relative;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 1.38vw;
+    font-weight: 700;
+    color: #3223BE;
+}

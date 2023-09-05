@@ -1,0 +1,126 @@
+.help {
+    width: 78vw;
+    min-height: 30vw;
+    margin-top: 6.8vw;
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/desktop/help.png);
+    background-size: 48vw 26vw;
+    background-position: right top;
+}
+
+.help__content {
+    width: 56.5vw;
+    height: 24vw;
+}
+
+.help__content_wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.3vw;
+    margin-left: 3.5vw;
+    position: relative;
+}
+
+.help__content_border {
+    position: absolute;
+    left: -3.5vw;
+    top: -4vw;
+    width: 50vw;
+    height: 24vw;
+    z-index: -1;
+    border: 1px solid #DEDEDE;
+}
+
+.help__descriptions {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.75vw;
+    margin-top: 3.6vw;
+    font-size: 1vw;
+}
+
+.help__descriptions p {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5em;
+    font-size: 0.8vw;
+}
+
+.help__title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    line-height: 1.2em;
+}
+
+
+.help__title:hover {
+    /* opacity: 0.5; */
+}
+
+.help__link {
+    width: 15vw;
+    height: 2.5vw;
+    color: white;
+    padding: 1vw 1.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3223BE;
+    transition-duration: 0.5s;
+    margin-top: 1.8vw;
+    font-size: 0.8vw;
+}
+
+.help__link:hover,
+.help__link:focus,
+.help__link:active {
+    /* opacity: 0.5; */
+    /* cursor: pointer; */
+}
+
+.help__link a {
+    width: 90%;
+    height: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 0.5vw;
+    color: white;
+}
+
+.help__link img {
+    width: 1vw;
+    height: auto;
+}
+
+.help__title span:first-child::after {
+    width: 40vw;
+    content: "Подбор запчасти по фото";
+    color: #F4F4F4;
+    position: absolute;
+    font-size: 2.25vw;
+    font-weight: 700;
+    top: 0.7vw;
+    left: 0;
+    z-index: -10;
+}
+
+.help__title span:last-child::after {
+    content: "или артикулу";
+    color: #F4F4F4;
+    position: absolute;
+    font-size: 2.25vw;
+    font-weight: 700;
+    top: 3.2vw;
+    left: 0;
+    z-index: -10;
+}

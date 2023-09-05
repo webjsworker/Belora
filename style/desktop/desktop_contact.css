@@ -1,0 +1,95 @@
+.contact {
+    width: 78vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5.5vw;
+    margin-bottom: 4vw;
+}
+
+.contact__title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    color: #3223BE;
+    font-size: 2.4vw;
+    font-weight: 900;
+    margin: 2vw 0;
+}
+
+.contact__title span::after {
+    content: "Контакты";
+    color: #F4F4F4;
+    position: absolute;
+    font-size: 2.3vw;
+    font-weight: 700;
+    top: 0.3vw;
+    left: 0;
+    z-index: -10;
+}
+
+.contact__container {
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+.contact__links {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8vw;
+    width: 30vw;
+}
+
+.contact__item {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2vw;
+}
+
+.contact__item_title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.contact__item img {
+    width: 1.3vw;
+    height: 1.3vw;
+}
+
+.contact__item_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8vw;
+
+}
+
+.contact__item_title span {
+    color: #162623;
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.contact__item_text {
+    font-size: 1vw;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+}
+
+.contact__map {
+    width: 40vw;
+    height: 20vw;
+    background-image: url("../../assets/desktop/map.png");
+}
+
+.contact__map img {
+    width: 100%;
+    height: auto;
+}

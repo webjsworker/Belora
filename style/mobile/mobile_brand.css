@@ -1,0 +1,55 @@
+.brand {
+    width: 100%;
+    height: auto;
+    margin-top: 16vw;
+}
+
+.brand__title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    color: #3223BE;
+    font-size: 7vw;
+    margin: 3vw 0;
+}
+
+.brand__title p::after {
+    content: "Работаем с брендами";
+    color: #F4F4F4;
+    position: absolute;
+    font-size: 8vw;
+    font-weight: 900;
+    left: 0;
+    top: 1vw;
+    z-index: -10;
+}
+
+.brand__item_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vw;
+}
+
+.brand__item_row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand__item {
+    width: 30%;
+    height: auto;
+}
+
+.brand__logo-pic {
+    width: 100%;
+    height: auto;
+}

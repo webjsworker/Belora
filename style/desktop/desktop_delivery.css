@@ -1,0 +1,123 @@
+.delivery {
+    width: 78vw;
+    height: 23vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8.55vw;
+   /*  background-color: yellowgreen; */
+}
+
+.delivery__content {
+    width: 20vw;
+    height: 100%;
+}
+
+.delivery__title {
+    color: #3223BE;
+    font-size: 2.4vw;
+    font-weight: 500;
+    position: relative;
+}
+
+.delivery__title::after {
+    width: 30vw;
+    content: "Оплата и доставка";
+    color: #F4F4F4;
+    position: absolute;
+    font-size: 2.2vw;
+    font-weight: 700;
+    top: 0.45vw;
+    left: 0;
+    z-index: -10;
+}
+
+.delivery__text {
+    font-size: 0.8vw;
+    margin-top: 20%;
+    color: #4A4A4A;
+}
+
+.delivery__text p {
+    margin-top: 3%;
+}
+
+.delivery__img {
+    width: 30%;
+    height: auto;
+}
+
+.delivery__img img {
+    width: 130%;
+    height: auto;
+}
+
+.delivery__form {
+    width: 23vw;
+    height: 23vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 1.5vw 3.7vw;
+    border: 1px solid #DEDEDE;
+}
+
+.delivery__form_title {
+    font-size: 1.05vw;
+    font-weight: 700;
+}
+
+.delivery__form_description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8vw;
+    font-weight: 500;
+    margin-top: 1.35vw;
+}
+
+.delivery__form_description span {
+    width: 18vw;
+}
+
+.delivery__form_item {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: auto;
+    gap: 0.55vw;
+    margin-top: 1.2vw;
+}
+
+.delivery__form_element {
+    width: 16.8vw;
+    height: 2.5vw;
+    font-size: 1vw;
+    opacity: 0.7;
+    padding-left: 1vw;
+}
+
+.delivery__form_element::-webkit-input-placeholder {
+    font-size: 0.8vw;
+    font-weight: 300;
+}
+
+.delivery__form_text {
+    width: 15vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: #808080;
+    margin-top: 0.5vw;
+}
+
+.delivery__form_text p {
+    font-size: 0.63vw;
+}
+
+.delivery__form_link {
+    margin-top: 0.9vw;
+}

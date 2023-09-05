@@ -1,0 +1,98 @@
+.banner-parts {
+    width: 78vw;
+    height: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 7.5vw;
+    border: 1px solid #DEDEDE;
+    background: linear-gradient(to right, #FFFFFF 10%, rgba(250, 0, 0, 0) 50%),
+     url(../../assets/desktop/banner-parts.png);
+    background-repeat: no-repeat;
+    background-size: 45% 100%;
+    background-position: right;
+} /* background: linear-gradient(to right, #FFFFFF 10%, rgba(250, 0, 0, 0) 50%), */
+
+.banner-parts__container {
+    width: 35vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 3.2vw;
+}
+
+.banner-parts__title div {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+.banner-parts__form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1vw;
+    margin-top: 1vw;
+}
+.banner-parts__form_group{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0.2vw;
+}
+
+.banner-parts__form_element {
+    width: 16.8vw;
+    height: 2.5vw;
+    padding: 0.5vw 1vw;
+    opacity: 0.7;
+    font-size: 1vw;
+}
+
+.banner-parts__form_element::-webkit-input-placeholder {
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.banner-parts__description {
+    width: 42vw;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.6vw;
+    color: #808080;
+    margin-top: 0.5vw;
+}
+
+.banner-parts__link {
+    margin-top: 1vw;
+}
+
+.banner-parts__pic {
+    width: 30vw;
+    height: 100%;
+    position: relative;
+    line-height: 0;
+}
+
+.banner-parts__pic img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-parts__pic:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient(to right, rgb(250, 247, 247), rgba(255, 0, 0, 0));
+}

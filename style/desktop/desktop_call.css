@@ -1,0 +1,136 @@
+.call{
+    width: 40vw;
+    height: auto;
+    position: fixed;
+    padding: 8vw 7vw;
+    top: 10%;
+    left: 20%;
+    z-index: 25;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    background-color: white;
+    box-shadow: 1vw 1vw 1vw gray;
+    display: none;
+   }
+   .call__close {
+    width: 7vw;
+    height: 6vw;
+    position: absolute;
+    top: 1.5vw;
+    right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.call__close span {
+    width: 3.8vw;
+    height: 0.35vw;
+    background-color: #3223BE;
+}
+
+.call__close span:first-child {
+    top: 50%;
+    transform: translate(50%, 0%) rotate(45deg);
+}
+
+.call__close span:last-child {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg);
+}   
+
+.call__form {
+    width: 23vw;
+    height: 27vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 1.5vw 3.7vw;
+    border: 1px solid #DEDEDE;
+    /* background-color: yellowgreen; */
+}
+
+.call__form_title {
+    font-size: 1.05vw;
+    font-weight: 700;
+}
+
+.call__form_description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8vw;
+    font-weight: 500;
+    margin-top: 1.35vw;
+}
+
+.call__form_description span {
+    width: 18vw;
+}
+
+.call__form_item {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 10vw;
+    gap: 0.55vw;
+    margin-top: 1.2vw;
+    /* background-color: yellowgreen; */
+    
+}
+#formcall{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.call__form_element {
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    font-size: 1vw;
+    width: 16.8vw;
+    height: 2.5vw;
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+    opacity: 0.7;
+    padding-left: 1vw;
+}
+
+.call__form_element::-webkit-input-placeholder {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.call__form_text {
+    width: 15vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: #808080;
+    margin-top: 0.5vw;
+}
+
+.call__form_text p {
+    font-size: 0.63vw;
+}
+
+.call__form_link {
+    /* height: 5vw; */
+    margin-top: 0.9vw;
+}
+
+.actives{
+    border: 1px solid red;
+    /* color: red; */
+}
+
+.call__form_element1_active, 
+.call__form_element2_active,
+.call__form_element3_active{
+    visibility: hidden;
+    /* visibility: visible; */
+    font-size: 0.7vw;
+    color: red;
+}

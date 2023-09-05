@@ -1,0 +1,79 @@
+.trailers {
+    width: 78vw;
+    height: 24vw;
+    display: flex;
+    margin-top: 7.8vw;
+    border: 1px solid #DEDEDE;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/desktop/treiler.png);
+    background-size: 40vw 20vw;
+    background-position: right;
+}
+
+.trailers__content {
+    width: 45vw;
+    height: auto;
+    padding-top: 4.2vw;
+}
+
+.trailers__content_wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.65vw;
+    margin-left: 3.1vw;
+}
+
+.trailers__descriptions {
+    width: 22vw;
+    padding-top: 1.5vw;
+}
+
+.trailers__descriptions p {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+.trailers__descriptions p span {
+    font-size: 0.9vw;
+}
+
+.trailers__title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0.4vw;
+    position: relative;
+}
+
+.trailers__title span:first-child::after {
+    width: 1200px;
+    content: "Большой выбор прицепов всех типов";
+    color: #F4F4F4;
+    position: absolute;
+    font-size: 2.25vw;
+    font-weight: 700;
+    top: 0.2vw;
+    left: 0;
+    z-index: -10;
+}
+
+.trailers__title span:last-child::after {
+    content: "и запчастей к ним";
+    color: #F4F4F4;
+    position: absolute;
+    font-size: 2.25vw;
+    font-weight: 700;
+    top: 3vw;
+    left: 0;
+    z-index: -10;
+}
+
+.trailers__img {
+    display: none;
+}
+
+.trailers__link {}

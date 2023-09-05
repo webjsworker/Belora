@@ -1,0 +1,48 @@
+.footer {
+    width: 100%;
+    min-height: 8vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #2D2B2B;
+}
+
+.footer__container {
+    width: 71vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.8vw;
+    color: white;
+}
+.footer__label a {
+    text-decoration: none;
+}
+
+.footer__label a span {
+    letter-spacing: 0.1em;
+    font-size: 1.1vw;
+    color: white;
+    
+}
+
+.footer__about {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    gap: 1vw;
+}
+.footer__about span {
+    letter-spacing: 0.03em;
+    font-size: 0.8vw;
+}
+
+.footer__about a {
+    letter-spacing: 0.03em;
+    font-size: 0.8vw;
+    color: white;
+    text-decoration: none;
+}

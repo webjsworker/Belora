@@ -1,0 +1,45 @@
+@import url("./mobile_header.css");
+@import url("./mobile_intro.css");
+@import url("./mobile_about.css");
+@import url("./mobile_parts.css");
+@import url("./mobile_trailers.css");
+@import url("./mobile_banner.css");
+@import url("./mobile_delivery.css");
+@import url("./mobile_help.css");
+@import url("./mobile_brand.css");
+@import url("./mobile_banner-parts.css");
+@import url("./mobile_contact.css");
+@import url("./mobile_footer.css");
+@import url("./mobile_pop-up.css");
+@import url("./mobile_thanks.css");
+@import url("./mobile_price.css");
+@import url("./mobile_call.css");
+
+.wrapper {
+    width: 95vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    
+}
+
+.container {
+    max-width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    max-width: 1920px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

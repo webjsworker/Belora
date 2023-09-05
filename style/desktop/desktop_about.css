@@ -1,0 +1,45 @@
+.about {
+    width: 78vw;
+    height: auto;
+    margin-top: 5.8vw;
+    padding: 2vw 0;
+}
+
+.about__item {
+    width: 58.5vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1vw;
+}
+
+.about__item div:first-child {
+    position: relative;
+}
+
+.about__item div:first-child::after {
+    width: 40vw;
+    content: "О компании";
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    color: #F4F4F4;
+    position: absolute;
+    font-size: 2vw;
+    top: 0.35vw;
+    left: 0;
+    z-index: -10;
+}
+
+.about__item div:last-child {
+    width: 40vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 0.9vw;
+    font-weight: 300;
+    gap: 1.05vw;
+    color: #4A4A4A;
+}
