@@ -5,7 +5,7 @@
     z-index: 25;
     top: 2%;
     left: 20%;
-    font-family: Geneva, Arial, Helvetica, sans-serif;
+    /* font-family: Geneva, Arial, Helvetica, sans-serif; */
     display: flex;
     flex-direction: column;
     background-color: white;

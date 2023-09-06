@@ -22,7 +22,7 @@
 .about__item div:first-child::after {
     width: 40vw;
     content: "О компании";
-    font-family: Geneva, Arial, Helvetica, sans-serif;
+    /* font-family: Geneva, Arial, Helvetica, sans-serif; */
     font-weight: 900;
     color: #F4F4F4;
     position: absolute;
@@ -37,7 +37,7 @@
     height: 20vw;
     display: flex;
     flex-direction: column;
-    font-family: Geneva, Arial, Helvetica, sans-serif;
+    /* font-family: Geneva, Arial, Helvetica, sans-serif; */
     font-size: 0.9vw;
     font-weight: 300;
     gap: 1.05vw;

@@ -1,4 +1,5 @@
 @import url("./style/reset.css");
+@import url("./style/fonts.css");
 @import url("./style/common.css");
 
 @import url("./style/desktop/desktop.css") (min-width: 321px);

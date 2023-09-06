@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: column;
     word-wrap: break-word;
-    font-family: Helvetica, sans-serif;
+    /* font-family: Helvetica, sans-serif; */
     line-height: 1.2em;
     font-size: 2.95vw;
     font-weight: 700;
