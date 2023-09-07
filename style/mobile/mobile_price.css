@@ -1,6 +1,6 @@
 .price{
     width: 100vw;
-    height: 100vw;
+    height: auto;
     position: fixed;
     padding: 8vw 7vw;
     top: 1%;
@@ -13,19 +13,20 @@
    /*  background-color: yellowgreen; */
     }
    .price__close {
-    width: 7vw;
-    height: 6vw;
+    width: 15vw;
+    height: 8vw;
     position: absolute;
     top: 1.5vw;
-    right: 1vw;
+    right: 3vw;
     display: flex;
     align-items: center;
     justify-content: end;
+   /*  background-color: yellowgreen; */
 }
 
 .price__close span {
-    width: 3.8vw;
-    height: 0.35vw;
+    width: 30px;
+    height: 2px;
     background-color: #3223BE;
 }
 
@@ -46,6 +47,7 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    margin-top: 5vw;
     padding: 1.5vw 3.7vw;
     border: 1px solid #DEDEDE;
     /* background-color: yellow; */
@@ -110,5 +112,5 @@
 }
 
 .price__form_link {
-    margin-top: 0.9vw;
+    margin-top: 2vw;
 }

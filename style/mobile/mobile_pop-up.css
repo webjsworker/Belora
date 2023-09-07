@@ -1,28 +1,35 @@
 .pop_up {
     width: 100%;
-    height: 95vw;
+    /* height: 110vw; */
+    height: auto;
     position: fixed;
     display: absolute;
+    /* position: relative; */
     z-index: 25;
     top: 5%;
     left: 0;
-    padding: 0 5vw;
+    padding: 2vw 5vw;
     background-color: white;
     display: none;
     box-shadow: 1vw 1vw 1vw gray;
+   /*  background-color: yellowgreen; */
 }
 
 .pop_up__close {
-    width: 100%;
-    height: 5vw;
+    width: 15vw;
+    height: 8vw;
     display: flex;
     align-items: center;
     justify-content: end;
+    position: absolute;
+    right: 3vw;
+    top: 2vw;
+    /* background-color: yellowgreen; */
 }
 
 .pop_up__close span {
-    width: 3vw;
-    height: 0.2vw;
+    width: 30px;
+    height: 2px;
     background-color: #3223BE;
 }
 
@@ -39,15 +46,17 @@
 
 .pop_up_form {
     width: 100%;
-    height: 20vw;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5vw;
+    /* background-color: #808080; */
 }
 
 .pop_up_form__wrapper {
     width: 100%;
-    height: 20vw;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 2vw;
@@ -83,7 +92,7 @@
 
 .pop_up_form__element {
     width: 100%;
-    height: 7vw;
+    height: 10vw;
 }
 .pop_up_form__element::-webkit-input-placeholder {
     font-size: 3vw;
@@ -98,6 +107,11 @@
 }
 .pop_up__file p{
     margin-left: 3vw;
+
+    font-size: 0.9vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    color: #808080;
 }
 .pop_up__file span {
     position: relative;
@@ -112,7 +126,7 @@
     background-color: white;
     border: 1px solid #3223BE;
 }
-.pop_up__file span::after {
+/* .pop_up__file span::after {
     width: 50vw;
     content: "Файл не выбран";
     color: #808080;
@@ -122,13 +136,40 @@
     top: 1.5vw;
     left: 35vw;
     z-index: -1;
-}
+} */
 
-.pop_up__file input[type=file] {
+/* .pop_up__file input[type=file] {
     position: absolute;
     z-index: -1;
     display: block;
     opacity: 0;
+} */
+.input-file{
+    position: relative;
+    width: fit-content;
+    padding: 4vw 2vw;
+    display: flex;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    font-size: 4vw;
+    color: #3223BE;
+    background-color: white;
+    border: 1px solid #3223BE;
+    /* z-index: -1; */
+}
+.pop_up_form__item input[type=file] {
+    position: absolute;
+    z-index: 3;
+    display: block;
+    left: 5vw;
+    top: 6vw;
+    /* width: 15vw; */
+    opacity:0;
+    width: 27vw;
+    height: 25vw;
+    transform: scale(1.4);
+    
 }
 
 .pop_up__description {
@@ -137,14 +178,20 @@
 }
 
 .pop_up_form__submit {
-    width: 33vw;
+    width: fit-content;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size: 3vw;
+    font-size: 6vw;
     border: none;
-    padding: 2vw 1vw;
+    padding: 4vw 10vw;
     background-color: #3223BE;
+}
+
+.pop_up_form__submit:hover,
+.pop_up_form__submit:focus,
+.pop_up_form__submit:active {
+    opacity: 0.7;
 }

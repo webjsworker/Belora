@@ -1,22 +1,24 @@
 .call{
     width: 100vw;
-    height: 95vw;
+    /* height: 110vw; */
+    height: auto;
     position: fixed;
     padding: 8vw 7vw;
     top: 3vw;
     /* left: 20%; */
     z-index: 25;
-    font-family: Geneva, Arial, Helvetica, sans-serif;
+   /*  font-family: Geneva, Arial, Helvetica, sans-serif; */
     background-color: white;
     box-shadow: 1vw 1vw 1vw gray;
     display: none;
+    /* background-color: yellowgreen; */
    }
    .call__close {
-    width: 8vw;
-    height: 8vw;
+    width: 15vw;
+    height: 10vw;
     position: absolute;
     top: 1.5vw;
-    right: 1vw;
+    right: 3vw;
     display: flex;
     align-items: center;
     justify-content: end;
@@ -24,8 +26,10 @@
 }
 
 .call__close span {
-    width: 10vw;
-    height: 0.2vw;
+    /* width: 12vw; */
+    /* height: 0.3vw; */
+    width: 40px;
+    height: 2px;
     background-color: #3223BE;
 }
 
@@ -41,7 +45,7 @@
 
 .call__form {
     width: 90vw;
-    height: 80vw;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -115,6 +119,7 @@
 
 .call__form_text p {
     font-size: 0.5em;
+    margin-bottom: 2vw;
 }
 
 .call__form_link {
@@ -127,8 +132,11 @@
     /* color: red; */
 }
 
-.call__form_element1_active, .call__form_element2_active{
+.call__form_element1_active, 
+.call__form_element2_active,
+.call__form_element3_active{
     visibility: hidden;
-    font-size: 0.7em;
+    /* visibility: visible; */
+    font-size: 4vw;
     color: red;
 }
