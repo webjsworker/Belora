@@ -11,4 +11,3 @@ menu.addEventListener('click', function(){
 	menu.classList.toggle('active');
 })
 
-/* document.addEventListener('click',e => console.log(e.target)) */

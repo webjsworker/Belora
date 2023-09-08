@@ -61,8 +61,7 @@
 
 
 .help__title:hover {
-    /* opacity: 0.5; */
-}
+    }
 
 .help__link {
     width: 15vw;
@@ -81,9 +80,7 @@
 .help__link:hover,
 .help__link:focus,
 .help__link:active {
-    /* opacity: 0.5; */
-    /* cursor: pointer; */
-}
+   }
 
 .help__link a {
     width: 90%;

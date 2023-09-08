@@ -10,22 +10,14 @@ const CALLVALUE = 'call'
 
 orderPhoneCall.addEventListener('click', function () {
     call.style.display = "block";
-    /* console.log('call button work') */
 })
-
 
 callbutton.addEventListener('click', function () {
-    /* console.log('button work ajaks') */
     PostUser(formcall, CALLPROP, CALLVALUE, thanks, call);
-    //call.style.display = "none";
-    //CleanForm(formcall)
-    //thanks.style.display = "block";
 })
-
 
 callclose.addEventListener('click', function () {
     call.style.display = "none";
     CleanForm(formcall)
-    //HiddenElement(call)
 })
 

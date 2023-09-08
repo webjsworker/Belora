@@ -1,9 +1,8 @@
 .trailers {
     width: 78vw;
-    height: auto;
+    height: 24vw;
     display: flex;
     margin-top: 7.8vw;
-    padding-bottom: 2vw;
     border: 1px solid #DEDEDE;
     background-repeat: no-repeat;
     background-image: url(../../assets/desktop/treiler.png);

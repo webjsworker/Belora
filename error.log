@@ -1,0 +1,804 @@
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Aug 28 20:33:36.983969 2023] [mpm_winnt:notice] [pid 3148:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Aug 28 20:33:36.983969 2023] [mpm_winnt:notice] [pid 3148:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Aug 28 20:33:36.983969 2023] [core:notice] [pid 3148:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Aug 28 20:33:36.989970 2023] [mpm_winnt:notice] [pid 3148:tid 400] AH00418: Parent: Created child process 6804
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Aug 28 20:33:37.526371 2023] [mpm_winnt:notice] [pid 6804:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Aug 28 23:00:44.242322 2023] [php:warn] [pid 6804:tid 1128] [client ::1:54824] PHP Warning:  require_once(user.php): Failed to open stream: No such file or directory in C:\\localhost\\controller.php on line 2, referer: http://localhost/
+[Mon Aug 28 23:00:44.244321 2023] [php:error] [pid 6804:tid 1128] [client ::1:54824] PHP Fatal error:  Uncaught Error: Failed opening required 'user.php' (include_path='.;C:\\php\\pear') in C:\\localhost\\controller.php:2\nStack trace:\n#0 C:\\localhost\\route.php(3): require()\n#1 {main}\n  thrown in C:\\localhost\\controller.php on line 2, referer: http://localhost/
+[Mon Aug 28 23:01:05.294427 2023] [php:warn] [pid 6804:tid 1132] [client ::1:54827] PHP Warning:  require_once(user.php): Failed to open stream: No such file or directory in C:\\localhost\\controller.php on line 2, referer: http://localhost/
+[Mon Aug 28 23:01:05.294427 2023] [php:error] [pid 6804:tid 1132] [client ::1:54827] PHP Fatal error:  Uncaught Error: Failed opening required 'user.php' (include_path='.;C:\\php\\pear') in C:\\localhost\\controller.php:2\nStack trace:\n#0 C:\\localhost\\route.php(3): require()\n#1 {main}\n  thrown in C:\\localhost\\controller.php on line 2, referer: http://localhost/
+[Mon Aug 28 23:01:30.714551 2023] [php:warn] [pid 6804:tid 1132] [client ::1:54836] PHP Warning:  require_once(user.php): Failed to open stream: No such file or directory in C:\\localhost\\controller.php on line 2, referer: http://localhost/
+[Mon Aug 28 23:01:30.715552 2023] [php:error] [pid 6804:tid 1132] [client ::1:54836] PHP Fatal error:  Uncaught Error: Failed opening required 'user.php' (include_path='.;C:\\php\\pear') in C:\\localhost\\controller.php:2\nStack trace:\n#0 C:\\localhost\\route.php(3): require()\n#1 {main}\n  thrown in C:\\localhost\\controller.php on line 2, referer: http://localhost/
+[Mon Aug 28 23:01:59.437740 2023] [php:warn] [pid 6804:tid 1132] [client ::1:54849] PHP Warning:  require_once(user.php): Failed to open stream: No such file or directory in C:\\localhost\\controller.php on line 2, referer: http://localhost/
+[Mon Aug 28 23:01:59.437740 2023] [php:error] [pid 6804:tid 1132] [client ::1:54849] PHP Fatal error:  Uncaught Error: Failed opening required 'user.php' (include_path='.;C:\\php\\pear') in C:\\localhost\\controller.php:2\nStack trace:\n#0 C:\\localhost\\route.php(3): require()\n#1 {main}\n  thrown in C:\\localhost\\controller.php on line 2, referer: http://localhost/
+[Mon Aug 28 23:07:10.402436 2023] [php:warn] [pid 6804:tid 1132] [client ::1:55006] PHP Warning:  require_once(user.php): Failed to open stream: No such file or directory in C:\\localhost\\controller.php on line 2, referer: http://localhost/
+[Mon Aug 28 23:07:10.402436 2023] [php:error] [pid 6804:tid 1132] [client ::1:55006] PHP Fatal error:  Uncaught Error: Failed opening required 'user.php' (include_path='.;C:\\php\\pear') in C:\\localhost\\controller.php:2\nStack trace:\n#0 C:\\localhost\\route.php(3): require()\n#1 {main}\n  thrown in C:\\localhost\\controller.php on line 2, referer: http://localhost/
+[Mon Aug 28 23:11:45.020343 2023] [mpm_winnt:notice] [pid 3148:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Aug 28 23:11:47.803835 2023] [mpm_winnt:notice] [pid 6804:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Aug 28 23:11:47.872735 2023] [mpm_winnt:notice] [pid 3148:tid 400] AH00430: Parent: Child process 6804 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Aug 28 23:12:00.178961 2023] [mpm_winnt:notice] [pid 5240:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Aug 28 23:12:00.178961 2023] [mpm_winnt:notice] [pid 5240:tid 404] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Aug 28 23:12:00.178961 2023] [core:notice] [pid 5240:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Aug 28 23:12:00.185956 2023] [mpm_winnt:notice] [pid 5240:tid 404] AH00418: Parent: Created child process 6788
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Aug 28 23:12:00.710961 2023] [mpm_winnt:notice] [pid 6788:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Aug 28 23:49:44.241646 2023] [mpm_winnt:notice] [pid 5240:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Aug 28 23:49:46.259353 2023] [mpm_winnt:notice] [pid 6788:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Aug 28 23:49:46.284332 2023] [mpm_winnt:notice] [pid 5240:tid 404] AH00430: Parent: Child process 6788 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 14:36:55.343472 2023] [mpm_winnt:notice] [pid 12272:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 14:36:55.343472 2023] [mpm_winnt:notice] [pid 12272:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 14:36:55.343472 2023] [core:notice] [pid 12272:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 14:36:55.352411 2023] [mpm_winnt:notice] [pid 12272:tid 400] AH00418: Parent: Created child process 12068
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 14:36:56.194372 2023] [mpm_winnt:notice] [pid 12068:tid 420] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 14:52:44.959446 2023] [php:error] [pid 12068:tid 1124] [client ::1:51475] PHP Fatal error:  Uncaught Error: Object of class User could not be converted to string in C:\\localhost\\validation.php:5\nStack trace:\n#0 C:\\localhost\\controller.php(7): ValidationForm(Object(User))\n#1 C:\\localhost\\route.php(22): ValidationUser(Object(User))\n#2 {main}\n  thrown in C:\\localhost\\validation.php on line 5, referer: http://localhost/
+[Tue Aug 29 14:53:15.201918 2023] [php:error] [pid 12068:tid 1124] [client ::1:51500] PHP Fatal error:  Uncaught Error: Object of class User could not be converted to string in C:\\localhost\\validation.php:5\nStack trace:\n#0 C:\\localhost\\controller.php(7): ValidationForm(Object(User))\n#1 C:\\localhost\\route.php(22): ValidationUser(Object(User))\n#2 {main}\n  thrown in C:\\localhost\\validation.php on line 5, referer: http://localhost/
+[Tue Aug 29 14:55:00.144690 2023] [php:error] [pid 12068:tid 1120] [client ::1:51558] PHP Fatal error:  Uncaught Error: Object of class User could not be converted to string in C:\\localhost\\validation.php:5\nStack trace:\n#0 C:\\localhost\\controller.php(7): ValidationForm(Object(User))\n#1 C:\\localhost\\route.php(22): ValidationUser(Object(User))\n#2 {main}\n  thrown in C:\\localhost\\validation.php on line 5, referer: http://localhost/
+[Tue Aug 29 14:57:35.449848 2023] [php:error] [pid 12068:tid 1132] [client ::1:51705] PHP Fatal error:  Uncaught Error: Object of class User could not be converted to string in C:\\localhost\\validation.php:5\nStack trace:\n#0 C:\\localhost\\controller.php(7): ValidationForm(Object(User))\n#1 C:\\localhost\\route.php(22): ValidationUser(Object(User))\n#2 {main}\n  thrown in C:\\localhost\\validation.php on line 5, referer: http://localhost/
+[Tue Aug 29 14:58:09.868100 2023] [php:error] [pid 12068:tid 1132] [client ::1:51730] PHP Fatal error:  Uncaught Error: Object of class User could not be converted to string in C:\\localhost\\validation.php:5\nStack trace:\n#0 C:\\localhost\\controller.php(7): ValidationForm(Object(User))\n#1 C:\\localhost\\route.php(22): ValidationUser(Object(User))\n#2 {main}\n  thrown in C:\\localhost\\validation.php on line 5, referer: http://localhost/
+[Tue Aug 29 14:59:05.160299 2023] [php:error] [pid 12068:tid 1132] [client ::1:51829] PHP Fatal error:  Uncaught Error: Object of class User could not be converted to string in C:\\localhost\\validation.php:5\nStack trace:\n#0 C:\\localhost\\controller.php(7): ValidationForm(Object(User))\n#1 C:\\localhost\\route.php(22): ValidationUser(Object(User))\n#2 {main}\n  thrown in C:\\localhost\\validation.php on line 5, referer: http://localhost/
+[Tue Aug 29 14:59:25.232661 2023] [php:error] [pid 12068:tid 1120] [client ::1:51830] PHP Fatal error:  Uncaught Error: Object of class User could not be converted to string in C:\\localhost\\validation.php:5\nStack trace:\n#0 C:\\localhost\\controller.php(7): ValidationForm(Object(User))\n#1 C:\\localhost\\route.php(22): ValidationUser(Object(User))\n#2 {main}\n  thrown in C:\\localhost\\validation.php on line 5, referer: http://localhost/
+[Tue Aug 29 15:17:54.512590 2023] [php:error] [pid 12068:tid 1132] [client ::1:52567] PHP Fatal error:  Cannot redeclare ValidationUser() (previously declared in C:\\localhost\\controller.php:5) in C:\\localhost\\controller.php on line 5, referer: http://localhost/
+[Tue Aug 29 15:20:45.596228 2023] [php:error] [pid 12068:tid 1132] [client ::1:52661] PHP Fatal error:  Cannot redeclare ValidationUser() (previously declared in C:\\localhost\\controller.php:5) in C:\\localhost\\controller.php on line 5, referer: http://localhost/
+[Tue Aug 29 15:21:14.716651 2023] [php:error] [pid 12068:tid 1132] [client ::1:52678] PHP Fatal error:  Cannot redeclare ValidationUser() (previously declared in C:\\localhost\\controller.php:5) in C:\\localhost\\controller.php on line 5, referer: http://localhost/
+[Tue Aug 29 15:22:06.277260 2023] [php:warn] [pid 12068:tid 1132] [client ::1:52698] PHP Warning:  Undefined variable $user_phonenumber in C:\\localhost\\validation.php on line 20, referer: http://localhost/
+[Tue Aug 29 15:23:01.949061 2023] [php:warn] [pid 12068:tid 1120] [client ::1:52708] PHP Warning:  Undefined variable $user_name in C:\\localhost\\validation.php on line 20, referer: http://localhost/
+[Tue Aug 29 15:23:01.949061 2023] [php:warn] [pid 12068:tid 1120] [client ::1:52708] PHP Warning:  Undefined variable $user_phonenumber in C:\\localhost\\validation.php on line 20, referer: http://localhost/
+[Tue Aug 29 15:25:56.792161 2023] [php:warn] [pid 12068:tid 1120] [client ::1:52820] PHP Warning:  Undefined variable $user_name in C:\\localhost\\validation.php on line 23, referer: http://localhost/
+[Tue Aug 29 15:25:56.792161 2023] [php:warn] [pid 12068:tid 1120] [client ::1:52820] PHP Warning:  Undefined variable $user_phonenumber in C:\\localhost\\validation.php on line 23, referer: http://localhost/
+[Tue Aug 29 16:02:35.230152 2023] [php:error] [pid 12068:tid 1120] [client ::1:54316] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in C:\\localhost\\controller.php on line 17, referer: http://localhost/
+[Tue Aug 29 17:13:20.496234 2023] [mpm_winnt:notice] [pid 12272:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 17:13:22.521057 2023] [mpm_winnt:notice] [pid 12068:tid 420] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 17:13:22.581195 2023] [mpm_winnt:notice] [pid 12272:tid 400] AH00430: Parent: Child process 12068 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 17:13:35.663109 2023] [mpm_winnt:notice] [pid 13888:tid 420] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 17:13:35.664110 2023] [mpm_winnt:notice] [pid 13888:tid 420] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 17:13:35.664110 2023] [core:notice] [pid 13888:tid 420] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 17:13:35.670109 2023] [mpm_winnt:notice] [pid 13888:tid 420] AH00418: Parent: Created child process 9044
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 17:13:36.349069 2023] [mpm_winnt:notice] [pid 9044:tid 408] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 20:14:24.947419 2023] [php:error] [pid 9044:tid 1128] [client ::1:49316] script 'C:/localhost/index.php' not found or unable to stat
+[Tue Aug 29 20:15:11.009703 2023] [php:error] [pid 9044:tid 1124] [client ::1:49346] script 'C:/localhost/index.php' not found or unable to stat
+[Tue Aug 29 20:27:56.606641 2023] [mpm_winnt:notice] [pid 13888:tid 420] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 20:27:58.625567 2023] [mpm_winnt:notice] [pid 9044:tid 408] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 20:27:58.686295 2023] [mpm_winnt:notice] [pid 13888:tid 420] AH00430: Parent: Child process 9044 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 20:28:05.659759 2023] [mpm_winnt:notice] [pid 10864:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 20:28:05.660750 2023] [mpm_winnt:notice] [pid 10864:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 20:28:05.660750 2023] [core:notice] [pid 10864:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 20:28:05.666750 2023] [mpm_winnt:notice] [pid 10864:tid 400] AH00418: Parent: Created child process 14580
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 20:28:06.229749 2023] [mpm_winnt:notice] [pid 14580:tid 404] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 20:41:27.217690 2023] [mpm_winnt:notice] [pid 10864:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 20:41:29.239358 2023] [mpm_winnt:notice] [pid 14580:tid 404] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 20:41:29.284953 2023] [mpm_winnt:notice] [pid 10864:tid 400] AH00430: Parent: Child process 14580 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'snmp' (tried: C:\\php\\ext\\snmp (The specified module could not be found), C:\\php\\ext\\php_snmp.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 20:41:37.520768 2023] [mpm_winnt:notice] [pid 6504:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 20:41:37.521770 2023] [mpm_winnt:notice] [pid 6504:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 20:41:37.521770 2023] [core:notice] [pid 6504:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 20:41:37.528778 2023] [mpm_winnt:notice] [pid 6504:tid 400] AH00418: Parent: Created child process 7836
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'snmp' (tried: C:\\php\\ext\\snmp (The specified module could not be found), C:\\php\\ext\\php_snmp.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 20:41:38.152773 2023] [mpm_winnt:notice] [pid 7836:tid 404] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 20:59:40.586783 2023] [mpm_winnt:notice] [pid 6504:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 20:59:42.611542 2023] [mpm_winnt:notice] [pid 7836:tid 404] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 20:59:42.655248 2023] [mpm_winnt:notice] [pid 6504:tid 400] AH00430: Parent: Child process 7836 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:\\php\\ext\\openssl (The specified module could not be found), C:\\php\\ext\\php_openssl.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 20:59:49.130875 2023] [mpm_winnt:notice] [pid 236:tid 440] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 20:59:49.130875 2023] [mpm_winnt:notice] [pid 236:tid 440] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 20:59:49.130875 2023] [core:notice] [pid 236:tid 440] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 20:59:49.137864 2023] [mpm_winnt:notice] [pid 236:tid 440] AH00418: Parent: Created child process 11568
+Apache server interrupted...
+able to load dynamic library 'openssl' (tried: C:\\php\\ext\\openssl (The specified module could not be found), C:\\php\\ext\\php_openssl.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 20:59:49.678568 2023] [mpm_winnt:notice] [pid 11568:tid 404] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 21:02:38.064959 2023] [mpm_winnt:notice] [pid 236:tid 440] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 21:02:40.081970 2023] [mpm_winnt:notice] [pid 11568:tid 404] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 21:02:40.125555 2023] [mpm_winnt:notice] [pid 236:tid 440] AH00430: Parent: Child process 11568 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:\\php\\ext\\openssl (The specified module could not be found), C:\\php\\ext\\php_openssl.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 21:02:52.423205 2023] [mpm_winnt:notice] [pid 6868:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 21:02:52.424215 2023] [mpm_winnt:notice] [pid 6868:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 21:02:52.424215 2023] [core:notice] [pid 6868:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 21:02:52.430205 2023] [mpm_winnt:notice] [pid 6868:tid 408] AH00418: Parent: Created child process 15808
+Apache server shutdown initiated...
+ load dynamic library 'openssl' (tried: C:\\php\\ext\\openssl (The specified module could not be found), C:\\php\\ext\\php_openssl.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 21:02:52.972658 2023] [mpm_winnt:notice] [pid 15808:tid 404] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 21:32:31.707450 2023] [mpm_winnt:notice] [pid 6868:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 21:32:33.729034 2023] [mpm_winnt:notice] [pid 15808:tid 404] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 21:32:33.786967 2023] [mpm_winnt:notice] [pid 6868:tid 408] AH00430: Parent: Child process 15808 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: C:\\php\\ext\\openssl (The specified module could not be found), C:\\php\\ext\\php_openssl.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 21:32:54.948753 2023] [mpm_winnt:notice] [pid 5096:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 21:32:54.948753 2023] [mpm_winnt:notice] [pid 5096:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 21:32:54.948753 2023] [core:notice] [pid 5096:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 21:32:54.956054 2023] [mpm_winnt:notice] [pid 5096:tid 400] AH00418: Parent: Created child process 8784
+Apache server shutdown initiated...
+ load dynamic library 'openssl' (tried: C:\\php\\ext\\openssl (The specified module could not be found), C:\\php\\ext\\php_openssl.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 21:32:55.526787 2023] [mpm_winnt:notice] [pid 8784:tid 416] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 21:34:06.929703 2023] [mpm_winnt:notice] [pid 5096:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 21:34:09.815076 2023] [mpm_winnt:notice] [pid 8784:tid 416] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 21:34:09.856522 2023] [mpm_winnt:notice] [pid 5096:tid 400] AH00430: Parent: Child process 8784 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 21:34:13.709749 2023] [mpm_winnt:notice] [pid 5060:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 21:34:13.709749 2023] [mpm_winnt:notice] [pid 5060:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 21:34:13.710743 2023] [core:notice] [pid 5060:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 21:34:13.715908 2023] [mpm_winnt:notice] [pid 5060:tid 408] AH00418: Parent: Created child process 12544
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 21:34:14.287243 2023] [mpm_winnt:notice] [pid 12544:tid 424] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 22:04:34.063072 2023] [mpm_winnt:notice] [pid 5060:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 22:04:36.084271 2023] [mpm_winnt:notice] [pid 12544:tid 424] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 22:04:36.144975 2023] [mpm_winnt:notice] [pid 5060:tid 408] AH00430: Parent: Child process 12544 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:/php/ext\\php_openssl.dll (The specified module could not be found), C:/php/ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:04:52.899905 2023] [mpm_winnt:notice] [pid 14556:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 22:04:52.900895 2023] [mpm_winnt:notice] [pid 14556:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 22:04:52.900895 2023] [core:notice] [pid 14556:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 22:04:52.906894 2023] [mpm_winnt:notice] [pid 14556:tid 400] AH00418: Parent: Created child process 12352
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:/php/ext\\php_openssl.dll (The specified module could not be found), C:/php/ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:04:53.464961 2023] [mpm_winnt:notice] [pid 12352:tid 424] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 22:06:17.437582 2023] [mpm_winnt:notice] [pid 14556:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 22:06:19.452592 2023] [mpm_winnt:notice] [pid 12352:tid 424] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 22:06:19.498942 2023] [mpm_winnt:notice] [pid 14556:tid 400] AH00430: Parent: Child process 12352 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'pdo_mysql' (tried: ./pdo_mysql (The specified module could not be found), ./php_pdo_mysql.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: ./php_openssl.dll (The specified module could not be found), ./php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:06:21.500398 2023] [mpm_winnt:notice] [pid 14884:tid 436] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 22:06:21.501397 2023] [mpm_winnt:notice] [pid 14884:tid 436] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 22:06:21.501397 2023] [core:notice] [pid 14884:tid 436] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 22:06:21.507394 2023] [mpm_winnt:notice] [pid 14884:tid 436] AH00418: Parent: Created child process 6004
+Apache server shutdown initiated...
+ load dynamic library 'pdo_mysql' (tried: ./pdo_mysql (The specified module could not be found), ./php_pdo_mysql.dll (The specified module could not be found)) in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: ./php_openssl.dll (The specified module could not be found), ./php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:06:22.145926 2023] [mpm_winnt:notice] [pid 6004:tid 404] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 22:16:20.431400 2023] [mpm_winnt:notice] [pid 14884:tid 436] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 22:16:22.445971 2023] [mpm_winnt:notice] [pid 6004:tid 404] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 22:16:22.489365 2023] [mpm_winnt:notice] [pid 14884:tid 436] AH00430: Parent: Child process 6004 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:16:24.546117 2023] [mpm_winnt:notice] [pid 14564:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 22:16:24.546117 2023] [mpm_winnt:notice] [pid 14564:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 22:16:24.546117 2023] [core:notice] [pid 14564:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 22:16:24.553104 2023] [mpm_winnt:notice] [pid 14564:tid 400] AH00418: Parent: Created child process 14720
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:16:25.181606 2023] [mpm_winnt:notice] [pid 14720:tid 404] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 22:21:57.227544 2023] [mpm_winnt:notice] [pid 14564:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 22:21:59.237209 2023] [mpm_winnt:notice] [pid 14720:tid 404] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 22:21:59.280126 2023] [mpm_winnt:notice] [pid 14564:tid 400] AH00430: Parent: Child process 14720 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:22:11.617880 2023] [mpm_winnt:notice] [pid 4796:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 22:22:11.618877 2023] [mpm_winnt:notice] [pid 4796:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 22:22:11.618877 2023] [core:notice] [pid 4796:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 22:22:11.624876 2023] [mpm_winnt:notice] [pid 4796:tid 400] AH00418: Parent: Created child process 15004
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:22:12.233186 2023] [mpm_winnt:notice] [pid 15004:tid 404] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 22:37:43.597146 2023] [mpm_winnt:notice] [pid 4796:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 22:37:45.614099 2023] [mpm_winnt:notice] [pid 15004:tid 404] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 22:37:45.659160 2023] [mpm_winnt:notice] [pid 4796:tid 400] AH00430: Parent: Child process 15004 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:/php/ext\\php_openssl.dll (The specified module could not be found), C:/php/ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:38:09.859035 2023] [mpm_winnt:notice] [pid 11772:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 22:38:09.859035 2023] [mpm_winnt:notice] [pid 11772:tid 404] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 22:38:09.859035 2023] [core:notice] [pid 11772:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 22:38:09.865027 2023] [mpm_winnt:notice] [pid 11772:tid 404] AH00418: Parent: Created child process 12628
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:/php/ext\\php_openssl.dll (The specified module could not be found), C:/php/ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:38:10.435025 2023] [mpm_winnt:notice] [pid 12628:tid 404] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 22:38:32.278808 2023] [mpm_winnt:notice] [pid 11772:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 22:38:34.305275 2023] [mpm_winnt:notice] [pid 12628:tid 404] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 22:38:34.346862 2023] [mpm_winnt:notice] [pid 11772:tid 404] AH00430: Parent: Child process 12628 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:/php/ext/php_openssl.dll (The specified module could not be found), C:/php/ext/php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:38:37.713841 2023] [mpm_winnt:notice] [pid 12252:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 22:38:37.713841 2023] [mpm_winnt:notice] [pid 12252:tid 404] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 22:38:37.713841 2023] [core:notice] [pid 12252:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 22:38:37.718826 2023] [mpm_winnt:notice] [pid 12252:tid 404] AH00418: Parent: Created child process 12364
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:/php/ext/php_openssl.dll (The specified module could not be found), C:/php/ext/php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:38:38.256351 2023] [mpm_winnt:notice] [pid 12364:tid 404] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 22:38:56.357574 2023] [mpm_winnt:notice] [pid 12252:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 22:38:58.371965 2023] [mpm_winnt:notice] [pid 12364:tid 404] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 22:38:58.414585 2023] [mpm_winnt:notice] [pid 12252:tid 404] AH00430: Parent: Child process 12364 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:39:14.431685 2023] [mpm_winnt:notice] [pid 15676:tid 412] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 22:39:14.431685 2023] [mpm_winnt:notice] [pid 15676:tid 412] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 22:39:14.431685 2023] [core:notice] [pid 15676:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 22:39:14.437676 2023] [mpm_winnt:notice] [pid 15676:tid 412] AH00418: Parent: Created child process 15100
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:39:14.998675 2023] [mpm_winnt:notice] [pid 15100:tid 404] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 22:40:25.318099 2023] [mpm_winnt:notice] [pid 15676:tid 412] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 22:40:27.331098 2023] [mpm_winnt:notice] [pid 15100:tid 404] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 22:40:27.377108 2023] [mpm_winnt:notice] [pid 15676:tid 412] AH00430: Parent: Child process 15100 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:41:01.190522 2023] [mpm_winnt:notice] [pid 1692:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 22:41:01.190522 2023] [mpm_winnt:notice] [pid 1692:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 22:41:01.190522 2023] [core:notice] [pid 1692:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 22:41:01.196506 2023] [mpm_winnt:notice] [pid 1692:tid 408] AH00418: Parent: Created child process 15376
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:41:01.740512 2023] [mpm_winnt:notice] [pid 15376:tid 404] AH00354: Child: Starting 64 worker threads.
+[Tue Aug 29 22:46:44.828348 2023] [mpm_winnt:notice] [pid 1692:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Aug 29 22:46:46.850777 2023] [mpm_winnt:notice] [pid 15376:tid 404] AH00364: Child: All worker threads have exited.
+[Tue Aug 29 22:46:46.893404 2023] [mpm_winnt:notice] [pid 1692:tid 408] AH00430: Parent: Child process 15376 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:46:50.785378 2023] [mpm_winnt:notice] [pid 4360:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Tue Aug 29 22:46:50.785378 2023] [mpm_winnt:notice] [pid 4360:tid 404] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Tue Aug 29 22:46:50.785378 2023] [core:notice] [pid 4360:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Aug 29 22:46:50.791377 2023] [mpm_winnt:notice] [pid 4360:tid 404] AH00418: Parent: Created child process 1688
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Tue Aug 29 22:46:51.419255 2023] [mpm_winnt:notice] [pid 1688:tid 404] AH00354: Child: Starting 64 worker threads.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::de0e:913:a9b:423f. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Wed Aug 30 08:41:37.128999 2023] [mpm_winnt:notice] [pid 7592:tid 416] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Wed Aug 30 08:41:37.128999 2023] [mpm_winnt:notice] [pid 7592:tid 416] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Wed Aug 30 08:41:37.128999 2023] [core:notice] [pid 7592:tid 416] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Aug 30 08:41:37.134985 2023] [mpm_winnt:notice] [pid 7592:tid 416] AH00418: Parent: Created child process 5272
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::de0e:913:a9b:423f. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::de0e:913:a9b:423f. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Wed Aug 30 08:41:37.668547 2023] [mpm_winnt:notice] [pid 5272:tid 404] AH00354: Child: Starting 64 worker threads.
+[Wed Aug 30 10:03:37.223593 2023] [mpm_winnt:notice] [pid 7592:tid 416] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Aug 30 10:03:39.248945 2023] [mpm_winnt:notice] [pid 5272:tid 404] AH00364: Child: All worker threads have exited.
+[Wed Aug 30 10:03:39.294408 2023] [mpm_winnt:notice] [pid 7592:tid 416] AH00430: Parent: Child process 5272 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::de0e:913:a9b:423f. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Thu Aug 31 13:17:24.534527 2023] [mpm_winnt:notice] [pid 3056:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Thu Aug 31 13:17:24.534527 2023] [mpm_winnt:notice] [pid 3056:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Thu Aug 31 13:17:24.534527 2023] [core:notice] [pid 3056:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Aug 31 13:17:24.540511 2023] [mpm_winnt:notice] [pid 3056:tid 400] AH00418: Parent: Created child process 8324
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::de0e:913:a9b:423f. Set the 'ServerName' directive globally to suppress this message
+Apache server shutdown initiated...
+ly determine the server's fully qualified domain name, using fe80::de0e:913:a9b:423f. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Thu Aug 31 13:17:25.090514 2023] [mpm_winnt:notice] [pid 8324:tid 404] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 31 13:20:33.049642 2023] [mpm_winnt:notice] [pid 3056:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 31 13:20:35.067147 2023] [mpm_winnt:notice] [pid 8324:tid 404] AH00364: Child: All worker threads have exited.
+[Thu Aug 31 13:20:35.129515 2023] [mpm_winnt:notice] [pid 3056:tid 400] AH00430: Parent: Child process 8324 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Thu Aug 31 13:31:49.410139 2023] [mpm_winnt:notice] [pid 9308:tid 404] AH00455: Apache/2.4.57 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Thu Aug 31 13:31:49.411151 2023] [mpm_winnt:notice] [pid 9308:tid 404] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Thu Aug 31 13:31:49.411151 2023] [core:notice] [pid 9308:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Aug 31 13:31:49.416140 2023] [mpm_winnt:notice] [pid 9308:tid 404] AH00418: Parent: Created child process 6520
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Thu Aug 31 13:31:49.933765 2023] [mpm_winnt:notice] [pid 6520:tid 408] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 31 13:43:15.028003 2023] [mpm_winnt:notice] [pid 9308:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 31 13:43:17.045362 2023] [mpm_winnt:notice] [pid 6520:tid 408] AH00364: Child: All worker threads have exited.
+[Thu Aug 31 13:43:17.089596 2023] [mpm_winnt:notice] [pid 9308:tid 404] AH00430: Parent: Child process 6520 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Thu Aug 31 13:43:36.111202 2023] [mpm_winnt:notice] [pid 1252:tid 400] AH00455: Apache/2.4.57 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Thu Aug 31 13:43:36.112202 2023] [mpm_winnt:notice] [pid 1252:tid 400] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Thu Aug 31 13:43:36.112202 2023] [core:notice] [pid 1252:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Aug 31 13:43:36.117197 2023] [mpm_winnt:notice] [pid 1252:tid 400] AH00418: Parent: Created child process 9948
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Thu Aug 31 13:43:36.632766 2023] [mpm_winnt:notice] [pid 9948:tid 400] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 31 14:22:54.219571 2023] [mpm_winnt:notice] [pid 1252:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 31 14:22:56.242162 2023] [mpm_winnt:notice] [pid 9948:tid 400] AH00364: Child: All worker threads have exited.
+[Thu Aug 31 14:22:56.283976 2023] [mpm_winnt:notice] [pid 1252:tid 400] AH00430: Parent: Child process 9948 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Thu Aug 31 14:24:01.939467 2023] [mpm_winnt:notice] [pid 4352:tid 400] AH00455: Apache/2.4.57 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Thu Aug 31 14:24:01.939467 2023] [mpm_winnt:notice] [pid 4352:tid 400] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Thu Aug 31 14:24:01.939467 2023] [core:notice] [pid 4352:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Aug 31 14:24:01.939467 2023] [mpm_winnt:notice] [pid 4352:tid 400] AH00418: Parent: Created child process 5352
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (The specified module could not be found), C:\\php\\ext\\php_php_openssl.dll.dll (The specified module could not be found)) in Unknown on line 0
+[Thu Aug 31 14:24:02.739470 2023] [mpm_winnt:notice] [pid 5352:tid 392] AH00354: Child: Starting 64 worker threads.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c), C:\\php\\ext\\php_php_openssl.dll.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c)) in Unknown on line 0
+[Thu Aug 31 22:13:06.755190 2023] [mpm_winnt:notice] [pid 3668:tid 428] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Thu Aug 31 22:13:06.770807 2023] [mpm_winnt:notice] [pid 3668:tid 428] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Thu Aug 31 22:13:06.770807 2023] [core:notice] [pid 3668:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Aug 31 22:13:06.770807 2023] [mpm_winnt:notice] [pid 3668:tid 428] AH00418: Parent: Created child process 1736
+Apache server shutdown initiated...
+ load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c), C:\\php\\ext\\php_php_openssl.dll.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c)) in Unknown on line 0
+[Thu Aug 31 22:13:07.036432 2023] [mpm_winnt:notice] [pid 1736:tid 412] AH00354: Child: Starting 64 worker threads.
+[Thu Aug 31 22:15:48.923585 2023] [php:error] [pid 1736:tid 1064] [client ::1:54306] PHP Parse error:  syntax error, unexpected token "break", expecting "," or ";" in C:\\localhost\\route.php on line 37, referer: http://localhost/
+[Thu Aug 31 22:16:14.123948 2023] [php:error] [pid 1736:tid 1064] [client ::1:54328] PHP Parse error:  syntax error, unexpected token "break", expecting "," or ";" in C:\\localhost\\route.php on line 37, referer: http://localhost/
+[Thu Aug 31 22:44:06.189650 2023] [mpm_winnt:notice] [pid 3668:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Aug 31 22:44:08.199606 2023] [mpm_winnt:notice] [pid 1736:tid 412] AH00364: Child: All worker threads have exited.
+[Thu Aug 31 22:44:08.254597 2023] [mpm_winnt:notice] [pid 3668:tid 428] AH00430: Parent: Child process 1736 exited successfully.
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c), C:\\php\\ext\\php_php_openssl.dll.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c)) in Unknown on line 0
+[Thu Aug 31 22:44:16.221978 2023] [mpm_winnt:notice] [pid 6380:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Thu Aug 31 22:44:16.221978 2023] [mpm_winnt:notice] [pid 6380:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Thu Aug 31 22:44:16.221978 2023] [core:notice] [pid 6380:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Aug 31 22:44:16.221978 2023] [mpm_winnt:notice] [pid 6380:tid 408] AH00418: Parent: Created child process 5080
+PHP Warning:  PHP Startup: Unable to load dynamic library 'php_openssl.dll' (tried: C:\\php\\ext\\php_openssl.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c), C:\\php\\ext\\php_php_openssl.dll.dll (\xd0\x9d\xd0\xb5 \xd0\xbd\xd0\xb0\xd0\xb9\xd0\xb4\xd0\xb5\xd0\xbd \xd1\x83\xd0\xba\xd0\xb0\xd0\xb7\xd0\xb0\xd0\xbd\xd0\xbd\xd1\x8b\xd0\xb9 \xd0\xbc\xd0\xbe\xd0\xb4\xd1\x83\xd0\xbb\xd1\x8c)) in Unknown on line 0
+[Thu Aug 31 22:44:16.503218 2023] [mpm_winnt:notice] [pid 5080:tid 412] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 01 15:24:21.796374 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49329] PHP Warning:  preg_match(): No ending delimiter '^' found in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:21.797375 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49329] PHP Warning:  preg_match(): No ending delimiter '^' found in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:25.667389 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49329] PHP Warning:  preg_match(): No ending delimiter '^' found in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:25.667389 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49329] PHP Warning:  preg_match(): No ending delimiter '^' found in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:26.422393 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49329] PHP Warning:  preg_match(): No ending delimiter '^' found in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:26.422393 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49329] PHP Warning:  preg_match(): No ending delimiter '^' found in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:26.571397 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49329] PHP Warning:  preg_match(): No ending delimiter '^' found in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:26.571397 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49329] PHP Warning:  preg_match(): No ending delimiter '^' found in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:54.866582 2023] [php:warn] [pid 5480:tid 1104] [client ::1:49330] PHP Warning:  preg_match(): Unknown modifier '?' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:54.866582 2023] [php:warn] [pid 5480:tid 1104] [client ::1:49330] PHP Warning:  preg_match(): Unknown modifier '?' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:55.380584 2023] [php:warn] [pid 5480:tid 1104] [client ::1:49330] PHP Warning:  preg_match(): Unknown modifier '?' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:55.380584 2023] [php:warn] [pid 5480:tid 1104] [client ::1:49330] PHP Warning:  preg_match(): Unknown modifier '?' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:55.550585 2023] [php:warn] [pid 5480:tid 1104] [client ::1:49330] PHP Warning:  preg_match(): Unknown modifier '?' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:55.550585 2023] [php:warn] [pid 5480:tid 1104] [client ::1:49330] PHP Warning:  preg_match(): Unknown modifier '?' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:57.901601 2023] [php:warn] [pid 5480:tid 1104] [client ::1:49330] PHP Warning:  preg_match(): Unknown modifier '?' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:57.901601 2023] [php:warn] [pid 5480:tid 1104] [client ::1:49330] PHP Warning:  preg_match(): Unknown modifier '?' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:58.322125 2023] [php:warn] [pid 5480:tid 1104] [client ::1:49330] PHP Warning:  preg_match(): Unknown modifier '?' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:58.322125 2023] [php:warn] [pid 5480:tid 1104] [client ::1:49330] PHP Warning:  preg_match(): Unknown modifier '?' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:58.473576 2023] [php:warn] [pid 5480:tid 1104] [client ::1:49330] PHP Warning:  preg_match(): Unknown modifier '?' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:24:58.474571 2023] [php:warn] [pid 5480:tid 1104] [client ::1:49330] PHP Warning:  preg_match(): Unknown modifier '?' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:25:44.648520 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49332] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:25:44.648520 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49332] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:25:45.104877 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49332] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:25:45.104877 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49332] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:25:46.990724 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49332] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:25:46.990724 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49332] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:25:47.377923 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49332] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:25:47.377923 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49332] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:25:47.546923 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49332] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:25:47.546923 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49332] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:25:49.539941 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49332] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:25:49.539941 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49332] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:25:49.801940 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49332] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 15:25:49.801940 2023] [php:warn] [pid 5480:tid 1096] [client ::1:49332] PHP Warning:  preg_match(): Unknown modifier 'g' in C:\\localhost\\validation.php on line 16, referer: http://localhost/
+[Fri Sep 01 16:26:03.661596 2023] [mpm_winnt:notice] [pid 4004:tid 376] AH00428: Parent: child process 5480 exited with status 1 -- Restarting.
+[Fri Sep 01 16:26:03.724917 2023] [mpm_winnt:notice] [pid 4004:tid 376] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Fri Sep 01 16:26:03.724917 2023] [mpm_winnt:notice] [pid 4004:tid 376] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Fri Sep 01 16:26:03.724917 2023] [core:notice] [pid 4004:tid 376] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 01 16:26:03.731916 2023] [mpm_winnt:notice] [pid 4004:tid 376] AH00418: Parent: Created child process 14164
+[Fri Sep 01 16:26:04.253927 2023] [mpm_winnt:notice] [pid 14164:tid 400] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 01 16:26:05.201057 2023] [mpm_winnt:notice] [pid 4004:tid 376] AH00428: Parent: child process 14164 exited with status 1 -- Restarting.
+[Fri Sep 01 16:26:05.236073 2023] [mpm_winnt:notice] [pid 4004:tid 376] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Fri Sep 01 16:26:05.236073 2023] [mpm_winnt:notice] [pid 4004:tid 376] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Fri Sep 01 16:26:05.236073 2023] [core:notice] [pid 4004:tid 376] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 01 16:26:05.240063 2023] [mpm_winnt:notice] [pid 4004:tid 376] AH00418: Parent: Created child process 9252
+[Fri Sep 01 16:26:05.768064 2023] [mpm_winnt:notice] [pid 9252:tid 392] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 01 16:26:06.937231 2023] [mpm_winnt:notice] [pid 4004:tid 376] AH00428: Parent: child process 9252 exited with status 1 -- Restarting.
+[Fri Sep 01 16:26:06.970241 2023] [mpm_winnt:notice] [pid 4004:tid 376] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Fri Sep 01 16:26:06.970241 2023] [mpm_winnt:notice] [pid 4004:tid 376] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Fri Sep 01 16:26:06.970241 2023] [core:notice] [pid 4004:tid 376] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 01 16:26:06.973231 2023] [mpm_winnt:notice] [pid 4004:tid 376] AH00418: Parent: Created child process 7772
+[Fri Sep 01 16:26:07.537231 2023] [mpm_winnt:notice] [pid 7772:tid 408] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 01 16:26:09.617129 2023] [mpm_winnt:crit] [pid 7772:tid 408] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Fri Sep 01 16:26:09.617129 2023] [mpm_winnt:warn] [pid 7772:tid 568] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Sep 01 16:26:09.617129 2023] [mpm_winnt:warn] [pid 7772:tid 572] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Sep 01 16:26:23.226605 2023] [core:warn] [pid 9908:tid 404] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 01 16:26:23.260587 2023] [mpm_winnt:notice] [pid 9908:tid 404] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Fri Sep 01 16:26:23.260587 2023] [mpm_winnt:notice] [pid 9908:tid 404] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Fri Sep 01 16:26:23.260587 2023] [core:notice] [pid 9908:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 01 16:26:23.266575 2023] [mpm_winnt:notice] [pid 9908:tid 404] AH00418: Parent: Created child process 4520
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 4520:tid 400] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 01 17:08:15.996670 2023] [mpm_winnt:notice] [pid 9908:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 01 17:08:18.014549 2023] [mpm_winnt:notice] [pid 4520:tid 400] AH00364: Child: All worker threads have exited.
+[Fri Sep 01 17:08:18.057878 2023] [mpm_winnt:notice] [pid 9908:tid 404] AH00430: Parent: Child process 4520 exited successfully.
+[Fri Sep 01 23:24:50.898312 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Fri Sep 01 23:24:50.898312 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Fri Sep 01 23:24:50.898312 2023] [core:notice] [pid 4332:tid 380] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 01 23:24:50.898312 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00418: Parent: Created child process 5972
+[Fri Sep 01 23:24:51.908312 2023] [mpm_winnt:notice] [pid 5972:tid 392] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 01 23:37:56.597567 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00428: Parent: child process 5972 exited with status 1 -- Restarting.
+[Fri Sep 01 23:37:57.814455 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Fri Sep 01 23:37:57.814455 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Fri Sep 01 23:37:57.814455 2023] [core:notice] [pid 4332:tid 380] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 01 23:37:57.858439 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00418: Parent: Created child process 7996
+[Fri Sep 01 23:37:58.464425 2023] [mpm_winnt:notice] [pid 7996:tid 404] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 01 23:37:59.827987 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00428: Parent: child process 7996 exited with status 1 -- Restarting.
+[Fri Sep 01 23:37:59.867697 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Fri Sep 01 23:37:59.867697 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Fri Sep 01 23:37:59.867697 2023] [core:notice] [pid 4332:tid 380] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 01 23:37:59.870699 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00418: Parent: Created child process 8976
+[Fri Sep 01 23:38:00.374705 2023] [mpm_winnt:notice] [pid 8976:tid 396] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 01 23:38:06.060014 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00428: Parent: child process 8976 exited with status 1 -- Restarting.
+[Fri Sep 01 23:38:06.096008 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Fri Sep 01 23:38:06.096008 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Fri Sep 01 23:38:06.096008 2023] [core:notice] [pid 4332:tid 380] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Fri Sep 01 23:38:06.098015 2023] [mpm_winnt:notice] [pid 4332:tid 380] AH00418: Parent: Created child process 6412
+[Fri Sep 01 23:38:06.600006 2023] [mpm_winnt:notice] [pid 6412:tid 428] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 01 23:38:07.938596 2023] [mpm_winnt:crit] [pid 6412:tid 428] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Fri Sep 01 23:38:07.938596 2023] [mpm_winnt:warn] [pid 6412:tid 1140] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Sep 01 23:38:07.938596 2023] [mpm_winnt:warn] [pid 6412:tid 624] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Fri Sep 01 23:38:57.147240 2023] [core:warn] [pid 6420:tid 432] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Sep 01 23:38:57.178246 2023] [mpm_winnt:notice] [pid 6420:tid 432] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Fri Sep 01 23:38:57.178246 2023] [mpm_winnt:notice] [pid 6420:tid 432] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Fri Sep 01 23:38:57.178246 2023] [core:notice] [pid 6420:tid 432] AH00094: Command line: 'httpd -d C:/Apache24'
+[Fri Sep 01 23:38:57.183238 2023] [mpm_winnt:notice] [pid 6420:tid 432] AH00418: Parent: Created child process 4840
+Apache server interrupted...
+023] [mpm_winnt:notice] [pid 4840:tid 400] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 01 23:40:04.532547 2023] [php:error] [pid 4840:tid 1088] [client ::1:60987] PHP Fatal error:  Uncaught TypeError: json_encode(): Argument #2 ($flags) must be of type int, User given in C:\\localhost\\user.php:9\nStack trace:\n#0 C:\\localhost\\user.php(9): json_encode('user.php->', Object(User))\n#1 C:\\localhost\\controller.php(22): UserService(Object(User))\n#2 C:\\localhost\\route.php(22): ValidationUser(Object(User))\n#3 {main}\n  thrown in C:\\localhost\\user.php on line 9, referer: http://localhost/
+[Fri Sep 01 23:40:09.757332 2023] [php:error] [pid 4840:tid 1092] [client ::1:60988] PHP Fatal error:  Uncaught TypeError: json_encode(): Argument #2 ($flags) must be of type int, Response given in C:\\localhost\\controller.php:19\nStack trace:\n#0 C:\\localhost\\controller.php(19): json_encode('controller->', Object(Response))\n#1 C:\\localhost\\route.php(22): ValidationUser(Object(User))\n#2 {main}\n  thrown in C:\\localhost\\controller.php on line 19, referer: http://localhost/
+[Fri Sep 01 23:41:16.167537 2023] [mpm_winnt:notice] [pid 6420:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 01 23:41:18.194631 2023] [mpm_winnt:notice] [pid 4840:tid 400] AH00364: Child: All worker threads have exited.
+[Fri Sep 01 23:41:18.238005 2023] [mpm_winnt:notice] [pid 6420:tid 432] AH00430: Parent: Child process 4840 exited successfully.
+[Fri Sep 01 23:41:27.591269 2023] [mpm_winnt:notice] [pid 7792:tid 404] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Fri Sep 01 23:41:27.591269 2023] [mpm_winnt:notice] [pid 7792:tid 404] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Fri Sep 01 23:41:27.591269 2023] [core:notice] [pid 7792:tid 404] AH00094: Command line: 'httpd -d C:/Apache24'
+[Fri Sep 01 23:41:27.596266 2023] [mpm_winnt:notice] [pid 7792:tid 404] AH00418: Parent: Created child process 3328
+Apache server interrupted...
+023] [mpm_winnt:notice] [pid 3328:tid 400] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 01 23:44:02.383990 2023] [mpm_winnt:notice] [pid 7792:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+[Fri Sep 01 23:44:27.197093 2023] [mpm_winnt:notice] [pid 3328:tid 400] AH00364: Child: All worker threads have exited.
+[Fri Sep 01 23:44:27.277095 2023] [mpm_winnt:notice] [pid 7792:tid 404] AH00430: Parent: Child process 3328 exited successfully.
+[Fri Sep 01 23:44:47.793475 2023] [mpm_winnt:notice] [pid 6160:tid 416] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Fri Sep 01 23:44:47.793475 2023] [mpm_winnt:notice] [pid 6160:tid 416] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Fri Sep 01 23:44:47.793475 2023] [core:notice] [pid 6160:tid 416] AH00094: Command line: 'httpd -d C:/Apache24'
+[Fri Sep 01 23:44:47.799478 2023] [mpm_winnt:notice] [pid 6160:tid 416] AH00418: Parent: Created child process 32
+Apache server interrupted...
+023] [mpm_winnt:notice] [pid 32:tid 400] AH00354: Child: Starting 64 worker threads.
+[Fri Sep 01 23:54:51.385111 2023] [mpm_winnt:notice] [pid 6160:tid 416] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Sep 01 23:54:53.402942 2023] [mpm_winnt:notice] [pid 32:tid 400] AH00364: Child: All worker threads have exited.
+[Fri Sep 01 23:54:53.447944 2023] [mpm_winnt:notice] [pid 6160:tid 416] AH00430: Parent: Child process 32 exited successfully.
+[Fri Sep 01 23:55:00.390195 2023] [mpm_winnt:notice] [pid 3356:tid 400] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Fri Sep 01 23:55:00.390195 2023] [mpm_winnt:notice] [pid 3356:tid 400] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Fri Sep 01 23:55:00.390195 2023] [core:notice] [pid 3356:tid 400] AH00094: Command line: 'httpd -d C:/Apache24'
+[Fri Sep 01 23:55:00.396206 2023] [mpm_winnt:notice] [pid 3356:tid 400] AH00418: Parent: Created child process 12336
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 12336:tid 400] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 02 00:03:55.404736 2023] [mpm_winnt:notice] [pid 3356:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 02 00:03:57.420323 2023] [mpm_winnt:notice] [pid 12336:tid 400] AH00364: Child: All worker threads have exited.
+[Sat Sep 02 00:03:57.467783 2023] [mpm_winnt:notice] [pid 3356:tid 400] AH00430: Parent: Child process 12336 exited successfully.
+[Sat Sep 02 00:04:05.067297 2023] [mpm_winnt:notice] [pid 2356:tid 408] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sat Sep 02 00:04:05.068298 2023] [mpm_winnt:notice] [pid 2356:tid 408] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sat Sep 02 00:04:05.068298 2023] [core:notice] [pid 2356:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Sep 02 00:04:05.073300 2023] [mpm_winnt:notice] [pid 2356:tid 408] AH00418: Parent: Created child process 12176
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 12176:tid 404] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 02 00:05:39.674247 2023] [mpm_winnt:notice] [pid 2356:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 02 00:05:41.700162 2023] [mpm_winnt:notice] [pid 12176:tid 404] AH00364: Child: All worker threads have exited.
+[Sat Sep 02 00:05:41.744157 2023] [mpm_winnt:notice] [pid 2356:tid 408] AH00430: Parent: Child process 12176 exited successfully.
+[Sat Sep 02 00:10:47.730793 2023] [mpm_winnt:notice] [pid 5876:tid 404] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sat Sep 02 00:10:47.730793 2023] [mpm_winnt:notice] [pid 5876:tid 404] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sat Sep 02 00:10:47.730793 2023] [core:notice] [pid 5876:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Sep 02 00:10:47.736783 2023] [mpm_winnt:notice] [pid 5876:tid 404] AH00418: Parent: Created child process 2788
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 2788:tid 400] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 02 00:26:13.453573 2023] [php:error] [pid 2788:tid 1100] [client ::1:62596] PHP Fatal error:  Uncaught TypeError: json_encode(): Argument #2 ($flags) must be of type int, Response given in C:\\localhost\\user.php:9\nStack trace:\n#0 C:\\localhost\\user.php(9): json_encode(Object(User), Object(Response))\n#1 C:\\localhost\\controller.php(19): UserService(Object(User), Object(Response))\n#2 C:\\localhost\\route.php(22): ValidationUser(Object(User))\n#3 {main}\n  thrown in C:\\localhost\\user.php on line 9, referer: http://localhost/
+[Sat Sep 02 00:32:22.761414 2023] [mpm_winnt:notice] [pid 5876:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 02 00:32:24.776793 2023] [mpm_winnt:notice] [pid 2788:tid 400] AH00364: Child: All worker threads have exited.
+[Sat Sep 02 00:32:24.816776 2023] [mpm_winnt:notice] [pid 5876:tid 404] AH00430: Parent: Child process 2788 exited successfully.
+[Sat Sep 02 09:27:01.077452 2023] [mpm_winnt:notice] [pid 4140:tid 376] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sat Sep 02 09:27:01.077452 2023] [mpm_winnt:notice] [pid 4140:tid 376] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sat Sep 02 09:27:01.077452 2023] [core:notice] [pid 4140:tid 376] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Sep 02 09:27:01.077452 2023] [mpm_winnt:notice] [pid 4140:tid 376] AH00418: Parent: Created child process 5972
+[Sat Sep 02 09:27:02.137449 2023] [mpm_winnt:notice] [pid 5972:tid 392] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 02 09:33:11.988004 2023] [mpm_winnt:notice] [pid 4140:tid 376] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 02 09:33:14.042610 2023] [mpm_winnt:notice] [pid 5972:tid 392] AH00364: Child: All worker threads have exited.
+[Sat Sep 02 09:33:14.058236 2023] [mpm_winnt:notice] [pid 4140:tid 376] AH00430: Parent: Child process 5972 exited successfully.
+[Sat Sep 02 15:42:20.060245 2023] [mpm_winnt:notice] [pid 4152:tid 156] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sat Sep 02 15:42:20.060245 2023] [mpm_winnt:notice] [pid 4152:tid 156] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sat Sep 02 15:42:20.060245 2023] [core:notice] [pid 4152:tid 156] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Sep 02 15:42:20.060245 2023] [mpm_winnt:notice] [pid 4152:tid 156] AH00418: Parent: Created child process 5972
+[Sat Sep 02 15:42:21.080245 2023] [mpm_winnt:notice] [pid 5972:tid 392] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 02 15:52:45.716626 2023] [mpm_winnt:notice] [pid 4152:tid 156] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 02 15:52:47.746371 2023] [mpm_winnt:notice] [pid 5972:tid 392] AH00364: Child: All worker threads have exited.
+[Sat Sep 02 15:52:47.761998 2023] [mpm_winnt:notice] [pid 4152:tid 156] AH00430: Parent: Child process 5972 exited successfully.
+[Sat Sep 02 17:51:32.966835 2023] [mpm_winnt:notice] [pid 4140:tid 376] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sat Sep 02 17:51:32.966835 2023] [mpm_winnt:notice] [pid 4140:tid 376] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sat Sep 02 17:51:32.966835 2023] [core:notice] [pid 4140:tid 376] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Sep 02 17:51:32.966835 2023] [mpm_winnt:notice] [pid 4140:tid 376] AH00418: Parent: Created child process 5852
+[Sat Sep 02 17:51:33.916834 2023] [mpm_winnt:notice] [pid 5852:tid 392] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 02 18:34:40.724082 2023] [php:error] [pid 5852:tid 1088] [client ::1:56765] PHP Fatal error:  Cannot declare class User, because the name is already in use in C:\\localhost\\user-model.php on line 2, referer: http://localhost/
+[Sat Sep 02 18:35:26.929462 2023] [php:error] [pid 5852:tid 1096] [client ::1:56783] PHP Fatal error:  Cannot declare class User, because the name is already in use in C:\\localhost\\user-model.php on line 2, referer: http://localhost/
+[Sat Sep 02 18:36:11.931670 2023] [mpm_winnt:notice] [pid 4140:tid 376] AH00428: Parent: child process 5852 exited with status 1 -- Restarting.
+[Sat Sep 02 18:36:13.250065 2023] [mpm_winnt:notice] [pid 4140:tid 376] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sat Sep 02 18:36:13.250065 2023] [mpm_winnt:notice] [pid 4140:tid 376] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sat Sep 02 18:36:13.250065 2023] [core:notice] [pid 4140:tid 376] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Sep 02 18:36:13.293067 2023] [mpm_winnt:notice] [pid 4140:tid 376] AH00418: Parent: Created child process 14612
+[Sat Sep 02 18:36:14.297064 2023] [mpm_winnt:crit] [pid 14612:tid 396] (OS 109)The pipe has been ended.  : AH00404: Child: Unable to read socket data from parent
+[Sat Sep 02 18:36:40.917685 2023] [core:warn] [pid 10156:tid 416] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Sep 02 18:36:40.966695 2023] [mpm_winnt:notice] [pid 10156:tid 416] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sat Sep 02 18:36:40.966695 2023] [mpm_winnt:notice] [pid 10156:tid 416] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sat Sep 02 18:36:40.966695 2023] [core:notice] [pid 10156:tid 416] AH00094: Command line: 'httpd -d C:/Apache24'
+[Sat Sep 02 18:36:40.972684 2023] [mpm_winnt:notice] [pid 10156:tid 416] AH00418: Parent: Created child process 11312
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 11312:tid 400] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 02 18:36:55.961917 2023] [php:error] [pid 11312:tid 1100] [client ::1:56828] PHP Fatal error:  Cannot declare class User, because the name is already in use in C:\\localhost\\user-model.php on line 2, referer: http://localhost/
+[Sat Sep 02 18:38:01.150546 2023] [php:error] [pid 11312:tid 1084] [client ::1:56879] PHP Fatal error:  Cannot declare class User, because the name is already in use in C:\\localhost\\user-model.php on line 2, referer: http://localhost/
+[Sat Sep 02 18:39:37.018370 2023] [php:error] [pid 11312:tid 1100] [client ::1:56940] PHP Fatal error:  Cannot declare class User, because the name is already in use in C:\\localhost\\user-model.php on line 21, referer: http://localhost/
+[Sat Sep 02 18:41:37.357668 2023] [php:error] [pid 11312:tid 1100] [client ::1:56999] PHP Fatal error:  Cannot declare class UserModel, because the name is already in use in C:\\localhost\\user-model.php on line 21, referer: http://localhost/
+[Sat Sep 02 18:43:20.819966 2023] [php:error] [pid 11312:tid 1100] [client ::1:57301] PHP Fatal error:  Uncaught Error: Class "User" not found in C:\\localhost\\route.php:21\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\route.php on line 21, referer: http://localhost/
+[Sat Sep 02 18:43:28.060155 2023] [php:error] [pid 11312:tid 1100] [client ::1:57301] PHP Fatal error:  Uncaught Error: Class "User" not found in C:\\localhost\\route.php:21\nStack trace:\n#0 {main}\n  thrown in C:\\localhost\\route.php on line 21, referer: http://localhost/
+[Sat Sep 02 18:50:59.950722 2023] [php:warn] [pid 11312:tid 1084] [client ::1:57577] PHP Warning:  Undefined variable $status in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 18:50:59.950722 2023] [php:warn] [pid 11312:tid 1084] [client ::1:57577] PHP Warning:  Undefined variable $mail in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 18:50:59.950722 2023] [php:warn] [pid 11312:tid 1084] [client ::1:57577] PHP Warning:  Attempt to read property "ErrorInfo" on null in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 18:52:13.375126 2023] [php:warn] [pid 11312:tid 1100] [client ::1:57596] PHP Warning:  Undefined variable $status in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 18:52:13.375126 2023] [php:warn] [pid 11312:tid 1100] [client ::1:57596] PHP Warning:  Undefined variable $mail in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 18:52:13.375126 2023] [php:warn] [pid 11312:tid 1100] [client ::1:57596] PHP Warning:  Attempt to read property "ErrorInfo" on null in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 18:53:53.226318 2023] [php:warn] [pid 11312:tid 1084] [client ::1:57687] PHP Warning:  Undefined variable $status in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 18:53:53.226318 2023] [php:warn] [pid 11312:tid 1084] [client ::1:57687] PHP Warning:  Undefined variable $mail in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 18:53:53.226318 2023] [php:warn] [pid 11312:tid 1084] [client ::1:57687] PHP Warning:  Attempt to read property "ErrorInfo" on null in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 18:55:48.986918 2023] [mpm_winnt:notice] [pid 10156:tid 416] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 02 18:55:51.006641 2023] [mpm_winnt:notice] [pid 11312:tid 400] AH00364: Child: All worker threads have exited.
+[Sat Sep 02 18:55:51.051475 2023] [mpm_winnt:notice] [pid 10156:tid 416] AH00430: Parent: Child process 11312 exited successfully.
+[Sat Sep 02 18:55:53.220769 2023] [mpm_winnt:notice] [pid 11068:tid 396] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sat Sep 02 18:55:53.220769 2023] [mpm_winnt:notice] [pid 11068:tid 396] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sat Sep 02 18:55:53.220769 2023] [core:notice] [pid 11068:tid 396] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Sep 02 18:55:53.225771 2023] [mpm_winnt:notice] [pid 11068:tid 396] AH00418: Parent: Created child process 10196
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 10196:tid 400] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 02 18:56:04.903418 2023] [php:warn] [pid 10196:tid 1096] [client ::1:57747] PHP Warning:  Undefined variable $status in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 18:56:04.904417 2023] [php:warn] [pid 10196:tid 1096] [client ::1:57747] PHP Warning:  Undefined variable $mail in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 18:56:04.904417 2023] [php:warn] [pid 10196:tid 1096] [client ::1:57747] PHP Warning:  Attempt to read property "ErrorInfo" on null in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 18:59:28.167036 2023] [php:warn] [pid 10196:tid 1096] [client ::1:57914] PHP Warning:  Undefined variable $status in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 18:59:28.167036 2023] [php:warn] [pid 10196:tid 1096] [client ::1:57914] PHP Warning:  Undefined variable $mail in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 18:59:28.167036 2023] [php:warn] [pid 10196:tid 1096] [client ::1:57914] PHP Warning:  Attempt to read property "ErrorInfo" on null in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 19:00:30.707951 2023] [php:warn] [pid 10196:tid 1100] [client ::1:57943] PHP Warning:  Undefined variable $status in C:\\localhost\\send.php on line 92, referer: http://localhost/
+[Sat Sep 02 19:03:27.901953 2023] [mpm_winnt:notice] [pid 11068:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 02 19:03:37.017014 2023] [core:warn] [pid 7844:tid 424] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Sep 02 19:03:37.052020 2023] [mpm_winnt:notice] [pid 7844:tid 424] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sat Sep 02 19:03:37.052020 2023] [mpm_winnt:notice] [pid 7844:tid 424] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sat Sep 02 19:03:37.052020 2023] [core:notice] [pid 7844:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Sep 02 19:03:37.058013 2023] [mpm_winnt:notice] [pid 7844:tid 424] AH00418: Parent: Created child process 7220
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 7220:tid 400] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 02 19:03:39.924758 2023] [mpm_winnt:notice] [pid 10196:tid 400] AH00364: Child: All worker threads have exited.
+[Sat Sep 02 19:06:03.484118 2023] [php:warn] [pid 7220:tid 1100] [client ::1:58134] PHP Warning:  Undefined variable $status in C:\\localhost\\send.php on line 80, referer: http://localhost/
+[Sat Sep 02 19:48:46.148409 2023] [php:warn] [pid 7220:tid 1100] [client ::1:59428] PHP Warning:  require(phpmailer/response.php): Failed to open stream: No such file or directory in C:\\localhost\\send.php on line 6, referer: http://localhost/
+[Sat Sep 02 19:48:46.150412 2023] [php:error] [pid 7220:tid 1100] [client ::1:59428] PHP Fatal error:  Uncaught Error: Failed opening required 'phpmailer/response.php' (include_path='.;C:\\php\\pear') in C:\\localhost\\send.php:6\nStack trace:\n#0 C:\\localhost\\user.php(2): require_once()\n#1 C:\\localhost\\controller.php(2): require_once('C:\\\\localhost\\\\us...')\n#2 C:\\localhost\\route.php(3): require('C:\\\\localhost\\\\co...')\n#3 {main}\n  thrown in C:\\localhost\\send.php on line 6, referer: http://localhost/
+[Sat Sep 02 19:49:30.590477 2023] [php:error] [pid 7220:tid 1100] [client ::1:59454] PHP Fatal error:  Cannot declare class Response, because the name is already in use in C:\\localhost\\response.php on line 2, referer: http://localhost/
+[Sat Sep 02 19:50:47.113720 2023] [php:error] [pid 7220:tid 1100] [client ::1:59487] PHP Fatal error:  Cannot declare class Response, because the name is already in use in C:\\localhost\\response.php on line 2, referer: http://localhost/
+[Sat Sep 02 19:51:36.082006 2023] [mpm_winnt:notice] [pid 7844:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 02 19:51:42.304473 2023] [core:warn] [pid 8796:tid 396] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Sep 02 19:51:42.341474 2023] [mpm_winnt:notice] [pid 8796:tid 396] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sat Sep 02 19:51:42.341474 2023] [mpm_winnt:notice] [pid 8796:tid 396] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sat Sep 02 19:51:42.341474 2023] [core:notice] [pid 8796:tid 396] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Sep 02 19:51:42.347476 2023] [mpm_winnt:notice] [pid 8796:tid 396] AH00418: Parent: Created child process 4868
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 4868:tid 436] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 02 19:51:44.702052 2023] [mpm_winnt:notice] [pid 7220:tid 400] AH00364: Child: All worker threads have exited.
+[Sat Sep 02 19:51:53.746341 2023] [php:error] [pid 4868:tid 1096] [client ::1:59518] PHP Fatal error:  Cannot declare class Response, because the name is already in use in C:\\localhost\\response.php on line 2, referer: http://localhost/
+[Sat Sep 02 20:00:58.649033 2023] [mpm_winnt:notice] [pid 8796:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 02 20:01:00.676908 2023] [mpm_winnt:notice] [pid 4868:tid 436] AH00364: Child: All worker threads have exited.
+[Sat Sep 02 20:01:00.720359 2023] [mpm_winnt:notice] [pid 8796:tid 396] AH00430: Parent: Child process 4868 exited successfully.
+[Sat Sep 02 20:01:06.036267 2023] [mpm_winnt:notice] [pid 880:tid 428] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sat Sep 02 20:01:06.036267 2023] [mpm_winnt:notice] [pid 880:tid 428] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sat Sep 02 20:01:06.036267 2023] [core:notice] [pid 880:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Sep 02 20:01:06.042271 2023] [mpm_winnt:notice] [pid 880:tid 428] AH00418: Parent: Created child process 12820
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 12820:tid 400] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 02 20:02:06.611441 2023] [php:error] [pid 12820:tid 1100] [client ::1:59863] PHP Fatal error:  Cannot declare class Response, because the name is already in use in C:\\localhost\\response.php on line 2, referer: http://localhost/
+[Sat Sep 02 20:05:23.008314 2023] [php:error] [pid 12820:tid 1096] [client ::1:59959] PHP Fatal error:  Cannot declare class Response, because the name is already in use in C:\\localhost\\response.php on line 2, referer: http://localhost/
+[Sat Sep 02 20:05:57.504672 2023] [mpm_winnt:notice] [pid 880:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 02 20:06:04.260704 2023] [mpm_winnt:notice] [pid 12820:tid 400] AH00364: Child: All worker threads have exited.
+[Sat Sep 02 20:07:50.434631 2023] [core:warn] [pid 8936:tid 396] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Sep 02 20:07:50.470640 2023] [mpm_winnt:notice] [pid 8936:tid 396] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sat Sep 02 20:07:50.470640 2023] [mpm_winnt:notice] [pid 8936:tid 396] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sat Sep 02 20:07:50.470640 2023] [core:notice] [pid 8936:tid 396] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Sep 02 20:07:50.476631 2023] [mpm_winnt:notice] [pid 8936:tid 396] AH00418: Parent: Created child process 5692
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 5692:tid 416] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 02 20:08:01.450743 2023] [php:error] [pid 5692:tid 1092] [client ::1:60051] PHP Fatal error:  Cannot declare class Response, because the name is already in use in C:\\localhost\\response.php on line 2, referer: http://localhost/
+[Sat Sep 02 20:11:16.532120 2023] [php:error] [pid 5692:tid 1092] [client ::1:60219] PHP Fatal error:  Cannot declare class Response, because the name is already in use in C:\\localhost\\response.php on line 2, referer: http://localhost/
+[Sat Sep 02 20:11:39.899085 2023] [php:error] [pid 5692:tid 1100] [client ::1:60245] PHP Fatal error:  Cannot declare class Response, because the name is already in use in C:\\localhost\\response.php on line 2, referer: http://localhost/
+[Sat Sep 02 21:21:43.853587 2023] [php:error] [pid 5692:tid 1092] [client ::1:62579] PHP Fatal error:  Uncaught ArgumentCountError: json_encode() expects at most 3 arguments, 5 given in C:\\localhost\\user.php:9\nStack trace:\n#0 C:\\localhost\\user.php(9): json_encode(true, true, 'call', 'success', 'status')\n#1 C:\\localhost\\user.php(17): SendMailEx(Object(User))\n#2 C:\\localhost\\controller.php(19): UserService(Object(User), Object(Response))\n#3 C:\\localhost\\route.php(23): ValidationUser(Object(User))\n#4 {main}\n  thrown in C:\\localhost\\user.php on line 9, referer: http://localhost/
+[Sat Sep 02 21:24:07.468246 2023] [php:error] [pid 5692:tid 1100] [client ::1:62650] PHP Fatal error:  Uncaught ArgumentCountError: json_encode() expects at most 3 arguments, 5 given in C:\\localhost\\user.php:9\nStack trace:\n#0 C:\\localhost\\user.php(9): json_encode(true, true, 'call', 'success', 'status')\n#1 C:\\localhost\\user.php(17): SendMailEx(Object(User), Object(Response))\n#2 C:\\localhost\\controller.php(19): UserService(Object(User), Object(Response))\n#3 C:\\localhost\\route.php(23): ValidationUser(Object(User))\n#4 {main}\n  thrown in C:\\localhost\\user.php on line 9, referer: http://localhost/
+[Sat Sep 02 21:37:04.774187 2023] [mpm_winnt:notice] [pid 8936:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sat Sep 02 21:37:14.387178 2023] [core:warn] [pid 4300:tid 396] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Sep 02 21:37:14.883993 2023] [mpm_winnt:notice] [pid 4300:tid 396] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sat Sep 02 21:37:14.884994 2023] [mpm_winnt:notice] [pid 4300:tid 396] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sat Sep 02 21:37:14.884994 2023] [core:notice] [pid 4300:tid 396] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sat Sep 02 21:37:14.889148 2023] [mpm_winnt:notice] [pid 4300:tid 396] AH00418: Parent: Created child process 8772
+[Sat Sep 02 21:37:15.407689 2023] [mpm_winnt:notice] [pid 8772:tid 400] AH00354: Child: Starting 64 worker threads.
+[Sat Sep 02 21:37:19.562893 2023] [mpm_winnt:notice] [pid 5692:tid 416] AH00364: Child: All worker threads have exited.
+[Sun Sep 03 07:17:45.258507 2023] [mpm_winnt:notice] [pid 500:tid 444] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Sun Sep 03 07:17:45.258507 2023] [mpm_winnt:notice] [pid 500:tid 444] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Sun Sep 03 07:17:45.258507 2023] [core:notice] [pid 500:tid 444] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Sep 03 07:17:45.260497 2023] [mpm_winnt:notice] [pid 500:tid 444] AH00418: Parent: Created child process 7452
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 7452:tid 412] AH00354: Child: Starting 64 worker threads.
+[Sun Sep 03 08:46:09.727505 2023] [php:warn] [pid 7452:tid 1064] [client ::1:57494] PHP Warning:  Undefined array key "part" in C:\\localhost\\route.php on line 26, referer: http://localhost/
+[Sun Sep 03 08:50:06.282618 2023] [php:error] [pid 7452:tid 1060] [client ::1:57695] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\\localhost\\route.php on line 30, referer: http://localhost/
+[Sun Sep 03 09:12:19.749591 2023] [php:warn] [pid 7452:tid 1060] [client ::1:58749] PHP Warning:  Undefined variable $partr in C:\\localhost\\response.php on line 19, referer: http://localhost/
+[Sun Sep 03 09:15:53.907024 2023] [php:warn] [pid 7452:tid 1060] [client ::1:58926] PHP Warning:  Undefined variable $partr in C:\\localhost\\response.php on line 19, referer: http://localhost/
+[Sun Sep 03 09:17:02.696935 2023] [php:warn] [pid 7452:tid 1060] [client ::1:58986] PHP Warning:  Undefined variable $user in C:\\localhost\\controller.php on line 38, referer: http://localhost/
+[Sun Sep 03 09:17:02.708926 2023] [php:warn] [pid 7452:tid 1060] [client ::1:58986] PHP Warning:  Attempt to read property "name" on null in C:\\localhost\\validation.php on line 9, referer: http://localhost/
+[Sun Sep 03 09:17:02.708926 2023] [php:notice] [pid 7452:tid 1060] [client ::1:58986] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\\localhost\\validation.php on line 9, referer: http://localhost/
+[Sun Sep 03 09:17:02.708926 2023] [php:warn] [pid 7452:tid 1060] [client ::1:58986] PHP Warning:  Attempt to read property "phonenumber" on null in C:\\localhost\\validation.php on line 15, referer: http://localhost/
+[Sun Sep 03 09:17:02.708926 2023] [php:notice] [pid 7452:tid 1060] [client ::1:58986] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\\localhost\\validation.php on line 15, referer: http://localhost/
+[Sun Sep 03 09:18:50.380852 2023] [php:warn] [pid 7452:tid 1064] [client ::1:59076] PHP Warning:  Undefined property: UserPrice::$name in C:\\localhost\\validation.php on line 9, referer: http://localhost/
+[Sun Sep 03 09:18:50.380852 2023] [php:notice] [pid 7452:tid 1064] [client ::1:59076] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\\localhost\\validation.php on line 9, referer: http://localhost/
+[Sun Sep 03 09:42:40.853418 2023] [php:warn] [pid 7452:tid 1064] [client ::1:60316] PHP Warning:  Undefined property: UserPrice::$name in C:\\localhost\\validation.php on line 9, referer: http://localhost/
+[Sun Sep 03 09:42:40.853418 2023] [php:notice] [pid 7452:tid 1064] [client ::1:60316] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\\localhost\\validation.php on line 9, referer: http://localhost/
+[Sun Sep 03 09:42:48.833598 2023] [php:warn] [pid 7452:tid 1064] [client ::1:60324] PHP Warning:  Undefined property: UserPrice::$name in C:\\localhost\\validation.php on line 9, referer: http://localhost/
+[Sun Sep 03 09:42:48.833598 2023] [php:notice] [pid 7452:tid 1064] [client ::1:60324] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\\localhost\\validation.php on line 9, referer: http://localhost/
+[Sun Sep 03 09:57:52.148385 2023] [php:warn] [pid 7452:tid 1060] [client ::1:61065] PHP Warning:  Undefined variable $title in C:\\localhost\\send.php on line 95, referer: http://localhost/
+[Sun Sep 03 09:57:52.148385 2023] [php:warn] [pid 7452:tid 1060] [client ::1:61065] PHP Warning:  Undefined variable $body in C:\\localhost\\send.php on line 96, referer: http://localhost/
+[Sun Sep 03 09:57:52.157716 2023] [php:warn] [pid 7452:tid 1060] [client ::1:61065] PHP Warning:  Undefined property: ResponsePrice::$name in C:\\localhost\\send.php on line 117, referer: http://localhost/
+[Sun Sep 03 10:09:04.355860 2023] [php:warn] [pid 7452:tid 1064] [client ::1:61641] PHP Warning:  Undefined variable $title in C:\\localhost\\send.php on line 95, referer: http://localhost/
+[Sun Sep 03 10:09:04.355860 2023] [php:warn] [pid 7452:tid 1064] [client ::1:61641] PHP Warning:  Undefined variable $body in C:\\localhost\\send.php on line 96, referer: http://localhost/
+[Sun Sep 03 10:09:04.355860 2023] [php:warn] [pid 7452:tid 1064] [client ::1:61641] PHP Warning:  Undefined property: ResponsePrice::$name in C:\\localhost\\send.php on line 117, referer: http://localhost/
+[Sun Sep 03 18:30:14.551098 2023] [mpm_winnt:notice] [pid 500:tid 444] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Sep 03 18:30:16.581853 2023] [mpm_winnt:notice] [pid 7452:tid 412] AH00364: Child: All worker threads have exited.
+[Sun Sep 03 18:30:16.691218 2023] [mpm_winnt:notice] [pid 500:tid 444] AH00430: Parent: Child process 7452 exited successfully.
+[Sun Sep 03 23:47:04.107900 2023] [mpm_winnt:crit] [pid 6052:tid 392] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Sep 03 23:47:04.108899 2023] [mpm_winnt:warn] [pid 6052:tid 1448] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Sep 03 23:47:04.108899 2023] [mpm_winnt:warn] [pid 6052:tid 1444] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Sep 03 23:47:19.140254 2023] [core:warn] [pid 7884:tid 396] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Sep 03 23:47:19.508243 2023] [mpm_winnt:notice] [pid 7884:tid 396] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sun Sep 03 23:47:19.508243 2023] [mpm_winnt:notice] [pid 7884:tid 396] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sun Sep 03 23:47:19.508243 2023] [core:notice] [pid 7884:tid 396] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Sep 03 23:47:19.514244 2023] [mpm_winnt:notice] [pid 7884:tid 396] AH00418: Parent: Created child process 10172
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 10172:tid 400] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 04 00:30:57.105354 2023] [mpm_winnt:notice] [pid 7884:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 04 00:31:04.022176 2023] [core:warn] [pid 11012:tid 396] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 04 00:31:04.058185 2023] [mpm_winnt:notice] [pid 11012:tid 396] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Mon Sep 04 00:31:04.058185 2023] [mpm_winnt:notice] [pid 11012:tid 396] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Mon Sep 04 00:31:04.058185 2023] [core:notice] [pid 11012:tid 396] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Sep 04 00:31:04.063179 2023] [mpm_winnt:notice] [pid 11012:tid 396] AH00418: Parent: Created child process 6532
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 6532:tid 400] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 04 00:31:31.138586 2023] [mpm_winnt:notice] [pid 10172:tid 400] AH00364: Child: All worker threads have exited.
+[Mon Sep 04 00:51:06.957113 2023] [php:warn] [pid 6532:tid 1092] [client ::1:59053] PHP Warning:  Undefined array key "form" in C:\\localhost\\route.php on line 20, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 00:51:06.957113 2023] [php:warn] [pid 6532:tid 1092] [client ::1:59053] PHP Warning:  Undefined array key "form" in C:\\localhost\\route.php on line 25, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 00:51:06.957113 2023] [php:warn] [pid 6532:tid 1092] [client ::1:59053] PHP Warning:  Undefined array key "form" in C:\\localhost\\route.php on line 31, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 00:56:52.161568 2023] [php:notice] [pid 6532:tid 1076] [client ::1:59241] PHP Deprecated:  Creation of dynamic property UserHelpFile::$title is deprecated in C:\\localhost\\user-model.php on line 38, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:00:42.757956 2023] [php:notice] [pid 6532:tid 1064] [client ::1:59335] PHP Deprecated:  Optional parameter $company declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:00:42.757956 2023] [php:notice] [pid 6532:tid 1064] [client ::1:59335] PHP Deprecated:  Optional parameter $phonenumber declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:00:42.758949 2023] [php:notice] [pid 6532:tid 1064] [client ::1:59335] PHP Deprecated:  Optional parameter $part declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:03:35.337507 2023] [php:notice] [pid 6532:tid 1096] [client ::1:59441] PHP Deprecated:  Optional parameter $company declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:03:35.338508 2023] [php:notice] [pid 6532:tid 1096] [client ::1:59441] PHP Deprecated:  Optional parameter $phonenumber declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:03:35.338508 2023] [php:notice] [pid 6532:tid 1096] [client ::1:59441] PHP Deprecated:  Optional parameter $part declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:04:02.196074 2023] [php:notice] [pid 6532:tid 1096] [client ::1:59451] PHP Deprecated:  Optional parameter $company declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:04:02.196074 2023] [php:notice] [pid 6532:tid 1096] [client ::1:59451] PHP Deprecated:  Optional parameter $phonenumber declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:04:02.196074 2023] [php:notice] [pid 6532:tid 1096] [client ::1:59451] PHP Deprecated:  Optional parameter $part declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:04:07.253318 2023] [mpm_winnt:notice] [pid 11012:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 04 01:04:09.276122 2023] [mpm_winnt:notice] [pid 6532:tid 400] AH00364: Child: All worker threads have exited.
+[Mon Sep 04 01:04:09.321163 2023] [mpm_winnt:notice] [pid 11012:tid 396] AH00430: Parent: Child process 6532 exited successfully.
+[Mon Sep 04 01:04:12.433846 2023] [mpm_winnt:notice] [pid 948:tid 428] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Mon Sep 04 01:04:12.433846 2023] [mpm_winnt:notice] [pid 948:tid 428] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Mon Sep 04 01:04:12.433846 2023] [core:notice] [pid 948:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Sep 04 01:04:12.439841 2023] [mpm_winnt:notice] [pid 948:tid 428] AH00418: Parent: Created child process 11024
+[Mon Sep 04 01:04:12.995838 2023] [mpm_winnt:notice] [pid 11024:tid 400] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 04 01:04:40.581147 2023] [php:notice] [pid 11024:tid 1100] [client ::1:59469] PHP Deprecated:  Optional parameter $company declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:04:40.581147 2023] [php:notice] [pid 11024:tid 1100] [client ::1:59469] PHP Deprecated:  Optional parameter $phonenumber declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:04:40.581147 2023] [php:notice] [pid 11024:tid 1100] [client ::1:59469] PHP Deprecated:  Optional parameter $part declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:05:25.633667 2023] [php:notice] [pid 11024:tid 1100] [client ::1:59497] PHP Deprecated:  Optional parameter $company declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:05:25.633667 2023] [php:notice] [pid 11024:tid 1100] [client ::1:59497] PHP Deprecated:  Optional parameter $phonenumber declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:05:25.633667 2023] [php:notice] [pid 11024:tid 1100] [client ::1:59497] PHP Deprecated:  Optional parameter $part declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:06:04.109905 2023] [php:notice] [pid 11024:tid 1100] [client ::1:59512] PHP Deprecated:  Optional parameter $company declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:06:04.109905 2023] [php:notice] [pid 11024:tid 1100] [client ::1:59512] PHP Deprecated:  Optional parameter $phonenumber declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:06:04.109905 2023] [php:notice] [pid 11024:tid 1100] [client ::1:59512] PHP Deprecated:  Optional parameter $part declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:06:37.313108 2023] [php:notice] [pid 11024:tid 1100] [client ::1:59555] PHP Deprecated:  Optional parameter $company declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:06:37.313108 2023] [php:notice] [pid 11024:tid 1100] [client ::1:59555] PHP Deprecated:  Optional parameter $phonenumber declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:06:37.313108 2023] [php:notice] [pid 11024:tid 1100] [client ::1:59555] PHP Deprecated:  Optional parameter $part declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:07:32.990294 2023] [php:notice] [pid 11024:tid 1072] [client ::1:59556] PHP Deprecated:  Optional parameter $company declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:07:32.990294 2023] [php:notice] [pid 11024:tid 1072] [client ::1:59556] PHP Deprecated:  Optional parameter $phonenumber declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:07:32.990294 2023] [php:notice] [pid 11024:tid 1072] [client ::1:59556] PHP Deprecated:  Optional parameter $part declared before required parameter $file is implicitly treated as a required parameter in C:\\localhost\\user-model.php on line 33, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:13:55.844763 2023] [php:notice] [pid 11024:tid 1056] [client ::1:59778] PHP Deprecated:  Creation of dynamic property UserHelpFile::$title is deprecated in C:\\localhost\\user-model.php on line 39, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:15:05.809201 2023] [php:notice] [pid 11024:tid 1056] [client ::1:59809] PHP Deprecated:  Creation of dynamic property UserHelpFile::$title is deprecated in C:\\localhost\\user-model.php on line 39, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:28:11.056129 2023] [php:notice] [pid 11024:tid 1100] [client ::1:53572] PHP Deprecated:  Creation of dynamic property UserHelpFile::$title is deprecated in C:\\localhost\\user-model.php on line 39, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 01:39:54.763365 2023] [php:error] [pid 11024:tid 1072] [client ::1:54130] PHP Fatal error:  Cannot redeclare ValidationUserHelp() (previously declared in C:\\localhost\\controller.php:43) in C:\\localhost\\validation.php on line 59, referer: http://localhost/?company=&phonenumber=&part=&file=
+[Mon Sep 04 07:08:00.204893 2023] [mpm_winnt:notice] [pid 6520:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Sep 04 07:08:00.204893 2023] [mpm_winnt:notice] [pid 6520:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Sep 04 07:08:00.204893 2023] [core:notice] [pid 6520:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Sep 04 07:08:00.204893 2023] [mpm_winnt:notice] [pid 6520:tid 408] AH00418: Parent: Created child process 4488
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 4488:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 04 07:11:58.326905 2023] [mpm_winnt:notice] [pid 6520:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Sep 04 07:12:00.333880 2023] [mpm_winnt:notice] [pid 4488:tid 412] AH00364: Child: All worker threads have exited.
+[Mon Sep 04 07:12:00.401869 2023] [mpm_winnt:notice] [pid 6520:tid 408] AH00430: Parent: Child process 4488 exited successfully.
+[Mon Sep 04 21:44:09.744102 2023] [mpm_winnt:notice] [pid 4328:tid 376] AH00428: Parent: child process 6004 exited with status 1 -- Restarting.
+[Mon Sep 04 21:44:11.125002 2023] [mpm_winnt:notice] [pid 4328:tid 376] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Mon Sep 04 21:44:11.125002 2023] [mpm_winnt:notice] [pid 4328:tid 376] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Mon Sep 04 21:44:11.125002 2023] [core:notice] [pid 4328:tid 376] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Sep 04 21:44:11.168001 2023] [mpm_winnt:notice] [pid 4328:tid 376] AH00418: Parent: Created child process 5544
+[Mon Sep 04 21:44:12.129008 2023] [mpm_winnt:crit] [pid 5544:tid 392] (OS 109)The pipe has been ended.  : AH00404: Child: Unable to read socket data from parent
+[Mon Sep 04 21:45:14.583672 2023] [core:warn] [pid 11476:tid 396] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Sep 04 21:45:14.619642 2023] [mpm_winnt:notice] [pid 11476:tid 396] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Mon Sep 04 21:45:14.619642 2023] [mpm_winnt:notice] [pid 11476:tid 396] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Mon Sep 04 21:45:14.619642 2023] [core:notice] [pid 11476:tid 396] AH00094: Command line: 'httpd -d C:/Apache24'
+[Mon Sep 04 21:45:14.624635 2023] [mpm_winnt:notice] [pid 11476:tid 396] AH00418: Parent: Created child process 1840
+Apache server interrupted...
+023] [mpm_winnt:notice] [pid 1840:tid 400] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 04 22:01:21.876070 2023] [mpm_winnt:notice] [pid 11476:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+[Mon Sep 04 22:01:36.614628 2023] [mpm_winnt:notice] [pid 1840:tid 400] AH00364: Child: All worker threads have exited.
+[Mon Sep 04 22:01:36.670629 2023] [mpm_winnt:notice] [pid 11476:tid 396] AH00430: Parent: Child process 1840 exited successfully.
+[Mon Sep 04 22:01:37.278627 2023] [mpm_winnt:notice] [pid 13692:tid 408] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Mon Sep 04 22:01:37.278627 2023] [mpm_winnt:notice] [pid 13692:tid 408] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Mon Sep 04 22:01:37.278627 2023] [core:notice] [pid 13692:tid 408] AH00094: Command line: 'httpd -d C:/Apache24'
+[Mon Sep 04 22:01:37.285631 2023] [mpm_winnt:notice] [pid 13692:tid 408] AH00418: Parent: Created child process 2200
+[Mon Sep 04 22:01:37.833629 2023] [mpm_winnt:notice] [pid 2200:tid 400] AH00354: Child: Starting 64 worker threads.
+[Mon Sep 04 22:41:39.879752 2023] [php:warn] [pid 2200:tid 1128] [client ::1:62175] PHP Warning:  Undefined variable $userstatus in C:\\localhost\\user.php on line 26, referer: http://localhost/
+[Mon Sep 04 22:41:39.887742 2023] [php:error] [pid 2200:tid 1128] [client ::1:62175] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\\localhost\\send.php:102\nStack trace:\n#0 C:\\localhost\\user.php(26): SendMail(Object(UserHelpFile), NULL)\n#1 C:\\localhost\\controller.php(57): UserServiceHelp(Object(UserHelpFile), Object(ResponseHelp))\n#2 C:\\localhost\\route.php(39): ValidationUserHelp(Object(UserHelpFile))\n#3 {main}\n  thrown in C:\\localhost\\send.php on line 102, referer: http://localhost/
+[Mon Sep 04 22:44:52.893619 2023] [php:warn] [pid 2200:tid 1108] [client ::1:62264] PHP Warning:  Undefined variable $userstatus in C:\\localhost\\user.php on line 26, referer: http://localhost/
+[Mon Sep 04 22:44:52.894619 2023] [php:error] [pid 2200:tid 1108] [client ::1:62264] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\\localhost\\send.php:102\nStack trace:\n#0 C:\\localhost\\user.php(26): SendMail(Object(UserHelpFile), NULL)\n#1 C:\\localhost\\controller.php(57): UserServiceHelp(Object(UserHelpFile), Object(ResponseHelp))\n#2 C:\\localhost\\route.php(39): ValidationUserHelp(Object(UserHelpFile))\n#3 {main}\n  thrown in C:\\localhost\\send.php on line 102, referer: http://localhost/
+[Mon Sep 04 22:46:40.063426 2023] [php:error] [pid 2200:tid 1128] [client ::1:62340] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\\localhost\\send.php:102\nStack trace:\n#0 C:\\localhost\\user.php(26): SendMail(Object(UserHelpFile), Object(ResponseHelp))\n#1 C:\\localhost\\controller.php(57): UserServiceHelp(Object(UserHelpFile), Object(ResponseHelp))\n#2 C:\\localhost\\route.php(39): ValidationUserHelp(Object(UserHelpFile))\n#3 {main}\n  thrown in C:\\localhost\\send.php on line 102, referer: http://localhost/
+[Mon Sep 04 22:52:23.771643 2023] [php:notice] [pid 2200:tid 1108] [client ::1:62566] PHP Deprecated:  Creation of dynamic property MaillResponseHelp::$phonenumber is deprecated in C:\\localhost\\mailresponse.php on line 38, referer: http://localhost/
+[Mon Sep 04 22:58:42.485452 2023] [php:error] [pid 2200:tid 1128] [client ::1:62790] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\\localhost\\send.php:104\nStack trace:\n#0 C:\\localhost\\user.php(28): SendMail(Object(UserHelpFile), Object(ResponseHelp))\n#1 C:\\localhost\\controller.php(57): UserServiceHelp(Object(UserHelpFile), Object(ResponseHelp))\n#2 C:\\localhost\\route.php(39): ValidationUserHelp(Object(UserHelpFile))\n#3 {main}\n  thrown in C:\\localhost\\send.php on line 104, referer: http://localhost/
+[Mon Sep 04 23:06:55.539308 2023] [php:warn] [pid 2200:tid 1108] [client ::1:63093] PHP Warning:  Undefined array key "file" in C:\\localhost\\send.php on line 116, referer: http://localhost/
+[Mon Sep 04 23:06:55.539308 2023] [php:error] [pid 2200:tid 1108] [client ::1:63093] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\\localhost\\send.php:116\nStack trace:\n#0 C:\\localhost\\user.php(28): SendMail(Object(UserHelpFile), Object(ResponseHelp))\n#1 C:\\localhost\\controller.php(57): UserServiceHelp(Object(UserHelpFile), Object(ResponseHelp))\n#2 C:\\localhost\\route.php(39): ValidationUserHelp(Object(UserHelpFile))\n#3 {main}\n  thrown in C:\\localhost\\send.php on line 116, referer: http://localhost/
+[Mon Sep 04 23:08:22.403585 2023] [php:error] [pid 2200:tid 1108] [client ::1:63128] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\\localhost\\send.php:116\nStack trace:\n#0 C:\\localhost\\user.php(28): SendMail(Object(UserHelpFile), Object(ResponseHelp))\n#1 C:\\localhost\\controller.php(57): UserServiceHelp(Object(UserHelpFile), Object(ResponseHelp))\n#2 C:\\localhost\\route.php(39): ValidationUserHelp(Object(UserHelpFile))\n#3 {main}\n  thrown in C:\\localhost\\send.php on line 116, referer: http://localhost/
+[Mon Sep 04 23:12:38.937129 2023] [php:error] [pid 2200:tid 1128] [client ::1:63273] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\\localhost\\send.php:116\nStack trace:\n#0 C:\\localhost\\user.php(28): SendMail(Object(UserHelpFile), Object(ResponseHelp))\n#1 C:\\localhost\\controller.php(57): UserServiceHelp(Object(UserHelpFile), Object(ResponseHelp))\n#2 C:\\localhost\\route.php(39): ValidationUserHelp(Object(UserHelpFile))\n#3 {main}\n  thrown in C:\\localhost\\send.php on line 116, referer: http://localhost/
+[Mon Sep 04 23:15:33.901958 2023] [php:error] [pid 2200:tid 1108] [client ::1:63370] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\\localhost\\send.php:116\nStack trace:\n#0 C:\\localhost\\user.php(28): SendMail(Object(UserHelpFile), Object(ResponseHelp))\n#1 C:\\localhost\\controller.php(57): UserServiceHelp(Object(UserHelpFile), Object(ResponseHelp))\n#2 C:\\localhost\\route.php(39): ValidationUserHelp(Object(UserHelpFile))\n#3 {main}\n  thrown in C:\\localhost\\send.php on line 116, referer: http://localhost/
+[Mon Sep 04 23:16:07.033687 2023] [php:error] [pid 2200:tid 1092] [client ::1:63411] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\\localhost\\send.php:116\nStack trace:\n#0 C:\\localhost\\user.php(28): SendMail(Object(UserHelpFile), Object(ResponseHelp))\n#1 C:\\localhost\\controller.php(57): UserServiceHelp(Object(UserHelpFile), Object(ResponseHelp))\n#2 C:\\localhost\\route.php(39): ValidationUserHelp(Object(UserHelpFile))\n#3 {main}\n  thrown in C:\\localhost\\send.php on line 116, referer: http://localhost/
+[Mon Sep 04 23:18:55.083585 2023] [php:warn] [pid 2200:tid 1128] [client ::1:63555] PHP Warning:  Undefined array key "userfile" in C:\\localhost\\send.php on line 116, referer: http://localhost/
+[Mon Sep 04 23:18:55.083585 2023] [php:warn] [pid 2200:tid 1128] [client ::1:63555] PHP Warning:  Trying to access array offset on value of type null in C:\\localhost\\send.php on line 116, referer: http://localhost/
+[Mon Sep 04 23:18:55.083585 2023] [php:error] [pid 2200:tid 1128] [client ::1:63555] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\\localhost\\send.php:116\nStack trace:\n#0 C:\\localhost\\user.php(28): SendMail(Object(UserHelpFile), Object(ResponseHelp))\n#1 C:\\localhost\\controller.php(57): UserServiceHelp(Object(UserHelpFile), Object(ResponseHelp))\n#2 C:\\localhost\\route.php(39): ValidationUserHelp(Object(UserHelpFile))\n#3 {main}\n  thrown in C:\\localhost\\send.php on line 116, referer: http://localhost/
+[Mon Sep 04 23:21:14.148960 2023] [php:error] [pid 2200:tid 1128] [client ::1:63680] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in C:\\localhost\\send.php:116\nStack trace:\n#0 C:\\localhost\\user.php(28): SendMail(Object(UserHelpFile), Object(ResponseHelp))\n#1 C:\\localhost\\controller.php(57): UserServiceHelp(Object(UserHelpFile), Object(ResponseHelp))\n#2 C:\\localhost\\route.php(39): ValidationUserHelp(Object(UserHelpFile))\n#3 {main}\n  thrown in C:\\localhost\\send.php on line 116, referer: http://localhost/
+[Mon Sep 04 23:26:08.932119 2023] [php:warn] [pid 2200:tid 1108] [client ::1:63836] PHP Warning:  Undefined variable $msg in C:\\localhost\\send.php on line 130, referer: http://localhost/
+[Tue Sep 05 00:26:27.525997 2023] [php:warn] [pid 2200:tid 1108] [client ::1:49512] PHP Warning:  Undefined array key "files" in C:\\localhost\\send.php on line 63, referer: http://localhost/
+[Tue Sep 05 00:28:53.563420 2023] [php:warn] [pid 2200:tid 1108] [client ::1:49583] PHP Warning:  Undefined array key "img" in C:\\localhost\\user.php on line 26, referer: http://localhost/
+[Tue Sep 05 07:07:59.736039 2023] [core:warn] [pid 4116:tid 376] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Sep 05 07:07:59.886041 2023] [mpm_winnt:notice] [pid 4116:tid 376] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Tue Sep 05 07:07:59.886041 2023] [mpm_winnt:notice] [pid 4116:tid 376] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Tue Sep 05 07:07:59.886041 2023] [core:notice] [pid 4116:tid 376] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Sep 05 07:07:59.886041 2023] [mpm_winnt:notice] [pid 4116:tid 376] AH00418: Parent: Created child process 5740
+[Tue Sep 05 07:08:00.976038 2023] [mpm_winnt:notice] [pid 5740:tid 392] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 05 08:11:35.755100 2023] [mpm_winnt:notice] [pid 4116:tid 376] AH00428: Parent: child process 5740 exited with status 1 -- Restarting.
+[Tue Sep 05 08:11:35.814372 2023] [mpm_winnt:notice] [pid 4116:tid 376] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Tue Sep 05 08:11:35.814372 2023] [mpm_winnt:notice] [pid 4116:tid 376] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Tue Sep 05 08:11:35.814372 2023] [core:notice] [pid 4116:tid 376] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Sep 05 08:11:35.819897 2023] [mpm_winnt:notice] [pid 4116:tid 376] AH00418: Parent: Created child process 9636
+[Tue Sep 05 08:11:36.686174 2023] [mpm_winnt:notice] [pid 9636:tid 436] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 05 08:11:42.121914 2023] [mpm_winnt:crit] [pid 9636:tid 436] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Tue Sep 05 08:11:42.121914 2023] [mpm_winnt:warn] [pid 9636:tid 576] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Tue Sep 05 08:11:42.122915 2023] [mpm_winnt:error] [pid 9636:tid 576] (OS 10038)An operation was attempted on something that is not a socket.  : AH00337: Child: Encountered too many AcceptEx faults accepting client connections. Possible causes: dynamic address renewal, or incompatible VPN or firewall software. 
+[Tue Sep 05 08:11:42.122915 2023] [mpm_winnt:notice] [pid 9636:tid 576] (OS 10038)An operation was attempted on something that is not a socket.  : AH00338: winnt_mpm: falling back to 'AcceptFilter none'.
+[Tue Sep 05 08:11:44.141721 2023] [mpm_winnt:notice] [pid 9636:tid 436] AH00364: Child: All worker threads have exited.
+[Tue Sep 05 08:11:49.314627 2023] [core:warn] [pid 12976:tid 396] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Sep 05 08:11:49.350121 2023] [mpm_winnt:notice] [pid 12976:tid 396] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Tue Sep 05 08:11:49.350121 2023] [mpm_winnt:notice] [pid 12976:tid 396] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Tue Sep 05 08:11:49.350121 2023] [core:notice] [pid 12976:tid 396] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Sep 05 08:11:49.356268 2023] [mpm_winnt:notice] [pid 12976:tid 396] AH00418: Parent: Created child process 6632
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 6632:tid 400] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 05 08:12:26.743069 2023] [php:warn] [pid 6632:tid 1084] [client ::1:58206] PHP Warning:  Undefined array key "name" in C:\\localhost\\route.php on line 21, referer: http://localhost/
+[Tue Sep 05 08:12:26.743069 2023] [php:warn] [pid 6632:tid 1084] [client ::1:58206] PHP Warning:  Undefined array key "phonenumber" in C:\\localhost\\route.php on line 21, referer: http://localhost/
+[Tue Sep 05 08:12:26.743069 2023] [php:notice] [pid 6632:tid 1084] [client ::1:58206] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\\localhost\\validation.php on line 9, referer: http://localhost/
+[Tue Sep 05 08:12:26.743069 2023] [php:notice] [pid 6632:tid 1084] [client ::1:58206] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\\localhost\\validation.php on line 15, referer: http://localhost/
+[Tue Sep 05 08:12:26.744069 2023] [php:notice] [pid 6632:tid 1084] [client ::1:58206] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\\localhost\\validation.php on line 9, referer: http://localhost/
+[Tue Sep 05 08:12:26.744069 2023] [php:notice] [pid 6632:tid 1084] [client ::1:58206] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\\localhost\\validation.php on line 15, referer: http://localhost/
+[Tue Sep 05 08:13:26.413475 2023] [php:warn] [pid 6632:tid 1084] [client ::1:58305] PHP Warning:  Undefined array key "name" in C:\\localhost\\route.php on line 21, referer: http://localhost/
+[Tue Sep 05 08:13:26.413475 2023] [php:warn] [pid 6632:tid 1084] [client ::1:58305] PHP Warning:  Undefined array key "phonenumber" in C:\\localhost\\route.php on line 21, referer: http://localhost/
+[Tue Sep 05 08:13:26.413475 2023] [php:notice] [pid 6632:tid 1084] [client ::1:58305] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\\localhost\\validation.php on line 9, referer: http://localhost/
+[Tue Sep 05 08:13:26.413475 2023] [php:notice] [pid 6632:tid 1084] [client ::1:58305] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\\localhost\\validation.php on line 15, referer: http://localhost/
+[Tue Sep 05 08:13:26.413475 2023] [php:notice] [pid 6632:tid 1084] [client ::1:58305] PHP Deprecated:  strlen(): Passing null to parameter #1 ($string) of type string is deprecated in C:\\localhost\\validation.php on line 9, referer: http://localhost/
+[Tue Sep 05 08:13:26.413475 2023] [php:notice] [pid 6632:tid 1084] [client ::1:58305] PHP Deprecated:  preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated in C:\\localhost\\validation.php on line 15, referer: http://localhost/
+[Tue Sep 05 08:57:08.983112 2023] [mpm_winnt:notice] [pid 12976:tid 396] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 05 08:57:16.560520 2023] [core:warn] [pid 9392:tid 412] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Sep 05 08:57:16.597509 2023] [mpm_winnt:notice] [pid 9392:tid 412] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Tue Sep 05 08:57:16.597509 2023] [mpm_winnt:notice] [pid 9392:tid 412] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Tue Sep 05 08:57:16.597509 2023] [core:notice] [pid 9392:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Tue Sep 05 08:57:16.602499 2023] [mpm_winnt:notice] [pid 9392:tid 412] AH00418: Parent: Created child process 12940
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 12940:tid 400] AH00354: Child: Starting 64 worker threads.
+[Tue Sep 05 08:57:19.412759 2023] [mpm_winnt:notice] [pid 6632:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Sep 05 09:21:31.204510 2023] [mpm_winnt:notice] [pid 9392:tid 412] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Sep 05 09:21:33.222697 2023] [mpm_winnt:notice] [pid 12940:tid 400] AH00364: Child: All worker threads have exited.
+[Tue Sep 05 09:21:33.288797 2023] [mpm_winnt:notice] [pid 9392:tid 412] AH00430: Parent: Child process 12940 exited successfully.
+[Wed Sep 06 07:17:13.596841 2023] [mpm_winnt:notice] [pid 4400:tid 376] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Wed Sep 06 07:17:13.596841 2023] [mpm_winnt:notice] [pid 4400:tid 376] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Wed Sep 06 07:17:13.596841 2023] [core:notice] [pid 4400:tid 376] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Wed Sep 06 07:17:13.596841 2023] [mpm_winnt:notice] [pid 4400:tid 376] AH00418: Parent: Created child process 6028
+[Wed Sep 06 07:17:14.446842 2023] [mpm_winnt:notice] [pid 6028:tid 392] AH00354: Child: Starting 64 worker threads.
+[Wed Sep 06 14:49:21.469961 2023] [mpm_winnt:notice] [pid 4400:tid 376] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Wed Sep 06 14:49:23.493909 2023] [mpm_winnt:notice] [pid 6028:tid 392] AH00364: Child: All worker threads have exited.
+[Wed Sep 06 14:49:23.525160 2023] [mpm_winnt:notice] [pid 4400:tid 376] AH00430: Parent: Child process 6028 exited successfully.
+[Thu Sep 07 07:31:11.039399 2023] [mpm_winnt:notice] [pid 4220:tid 388] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Thu Sep 07 07:31:11.039399 2023] [mpm_winnt:notice] [pid 4220:tid 388] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Thu Sep 07 07:31:11.039399 2023] [core:notice] [pid 4220:tid 388] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Sep 07 07:31:11.039399 2023] [mpm_winnt:notice] [pid 4220:tid 388] AH00418: Parent: Created child process 6016
+[Thu Sep 07 07:31:12.059396 2023] [mpm_winnt:notice] [pid 6016:tid 400] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 07 19:08:59.156092 2023] [mpm_winnt:notice] [pid 5592:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Thu Sep 07 19:08:59.171708 2023] [mpm_winnt:notice] [pid 5592:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Thu Sep 07 19:08:59.171708 2023] [core:notice] [pid 5592:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Thu Sep 07 19:08:59.171708 2023] [mpm_winnt:notice] [pid 5592:tid 408] AH00418: Parent: Created child process 1892
+[Thu Sep 07 19:09:00.702957 2023] [mpm_winnt:notice] [pid 1892:tid 412] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 07 21:19:09.037769 2023] [php:error] [pid 1892:tid 1056] [client ::1:59845] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\localhost\\phpmailer\\SMTP.php on line 1, referer: http://localhost/

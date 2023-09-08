@@ -5,12 +5,6 @@
     flex-direction: column;
     margin-top: 5.5vw;
     margin-bottom: 4vw;
-
-   /*  font-family: 'Roboto';
-    font-style: normal; */
-    
-
-
 }
 
 .contact__title {
@@ -55,9 +49,7 @@
 .contact__item {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    gap: 0.8vw;
-    /* background-color: yellowgreen; */
+    gap: 0.2vw;
 }
 
 .contact__item_title {
@@ -65,31 +57,11 @@
     flex-direction: row;
     align-items: center;
     gap: 1vw;
-    /* background-color: yellow; */
-
-   /*  font-family: 'Roboto'; */
-    /* font-style: normal; */
-    /* font-size: 16px;
-    line-height: 1.2; */
-    /* font-weight: 500; */
-   /*  color: red; */
-}
-.contact__item_pic{
-    width: 1.25vw;
-    height: auto;
-    /* background-color: yellowgreen; */
-}
-
-.contact__item_pic img{
-    width: 100%;
-    height: auto;
 }
 
 .contact__item img {
-     /* width: 100%;
-     height: auto; */
-    /* width: 1.3vw;
-    height: 1.3vw; */
+    width: 1.3vw;
+    height: 1.3vw;
 }
 
 .contact__item_wrapper {

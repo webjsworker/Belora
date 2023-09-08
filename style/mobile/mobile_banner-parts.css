@@ -1,26 +1,13 @@
 .banner-parts {
     width: 100%;
-    height: auto;
+    height: 150vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: start;
     position: relative;
-    margin-top: 18vw;
-    /* padding-top: 30vw; */
-    padding-bottom: 60vw;
+    margin-top: 32vw;
     border: 1px solid #DEDEDE;
-    /* background-color: yellowgreen; */
-    /* #FFFFFF */
-
-    background: linear-gradient(to bottom,#FFFFFF 10%, #FFFFFF 70%, rgba(250, 0, 0, 0) 100%),
-    url(../../assets/desktop/banner-parts.png);
-    /* background: radial-gradient(at 0% 30%, red 10px, yellow 30%, #1e90ff 50%); */
-
-
-   background-repeat: no-repeat;
-   background-size: 100% auto;
-   background-position: bottom;
 }
 
 .banner-parts__container {
@@ -31,18 +18,7 @@
     padding: 0 3vw;
     gap: 1vw;
     margin-left: 1.2vw;
-    /* background-color: yellow; */
-    position: relative;
 }
-/* .banner-parts__container::after {
-    position: absolute;
-    width: 30vw;
-    height: 30vw;
-    background-color: wheat;
-    background: linear-gradient(to bottom, #d14747 10%, rgba(250, 0, 0, 0) 30%),
-    url(../../assets/desktop/banner-parts.png);
-} */
-
 
 .banner-parts__title div {
     display: flex;

@@ -1,35 +1,30 @@
-.call{
+.call {
     width: 100vw;
-    /* height: 110vw; */
-    height: auto;
+    height: 95vw;
     position: fixed;
     padding: 8vw 7vw;
     top: 3vw;
-    /* left: 20%; */
     z-index: 25;
-   /*  font-family: Geneva, Arial, Helvetica, sans-serif; */
+    font-family: Geneva, Arial, Helvetica, sans-serif;
     background-color: white;
     box-shadow: 1vw 1vw 1vw gray;
     display: none;
-    /* background-color: yellowgreen; */
-   }
-   .call__close {
-    width: 15vw;
-    height: 10vw;
+}
+
+.call__close {
+    width: 8vw;
+    height: 8vw;
     position: absolute;
     top: 1.5vw;
-    right: 3vw;
+    right: 1vw;
     display: flex;
     align-items: center;
     justify-content: end;
-    /* background-color: yellowgreen; */
 }
 
 .call__close span {
-    /* width: 12vw; */
-    /* height: 0.3vw; */
-    width: 40px;
-    height: 2px;
+    width: 10vw;
+    height: 0.2vw;
     background-color: #3223BE;
 }
 
@@ -41,11 +36,11 @@
 .call__close span:last-child {
     top: 50%;
     transform: translate(-50%, 0%) rotate(-45deg);
-}   
+}
 
 .call__form {
     width: 90vw;
-    height: auto;
+    height: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -53,13 +48,11 @@
     margin-top: 5vw;
     padding: 1.5vw 3.7vw;
     border: 1px solid #DEDEDE;
-    /* background-color: yellowgreen; */
 }
 
 .call__form_title {
     font-size: 5vw;
     font-weight: 700;
-    /* background-color: yellow; */
 }
 
 .call__form_description {
@@ -69,7 +62,6 @@
     font-size: 3vw;
     font-weight: 500;
     margin-top: 5vw;
-    /* background-color: yellow; */
 }
 
 .call__form_description span {
@@ -83,17 +75,15 @@
     height: 22vw;
     gap: 0.55vw;
     margin-top: 1.2vw;
-    /* background-color: yellowgreen; */
-    
 }
-#formcall{
+
+#formcall {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
 .call__form_element {
-    /* position: relative; */
     width: 70vw;
     height: 10vw;
     margin-top: 1vw;
@@ -119,7 +109,6 @@
 
 .call__form_text p {
     font-size: 0.5em;
-    margin-bottom: 2vw;
 }
 
 .call__form_link {
@@ -127,16 +116,13 @@
     margin-top: 3vw;
 }
 
-.actives{
+.actives {
     border: 1px solid red;
-    /* color: red; */
 }
 
-.call__form_element1_active, 
-.call__form_element2_active,
-.call__form_element3_active{
+.call__form_element1_active,
+.call__form_element2_active {
     visibility: hidden;
-    /* visibility: visible; */
-    font-size: 4vw;
+    font-size: 0.7em;
     color: red;
 }

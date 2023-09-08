@@ -6,7 +6,7 @@
     top: 10%;
     left: 20%;
     z-index: 25;
-    /* font-family: Geneva, Arial, Helvetica, sans-serif; */
+    font-family: Geneva, Arial, Helvetica, sans-serif;
     background-color: white;
     box-shadow: 1vw 1vw 1vw gray;
     display: none;

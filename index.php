@@ -23,9 +23,11 @@
             </div>
             <div class="price__form_item">
                 <form id="formprice">
-                    <input type="text" id="priceForm1" name="phonenumber" class="price__form_element" placeholder="+375 ()">
+                    <input type="text" id="priceForm1" name="phonenumber" class="price__form_element"
+                        placeholder="+375 ()">
                     <span class="call__form_element1_active">Поле обязательно для заполнения</span>
-                    <input type="text" id="priceForm2" name="part" class="price__form_element" placeholder="Артикул/Название">
+                    <input type="text" id="priceForm2" name="part" class="price__form_element"
+                        placeholder="Артикул/Название">
                     <span class="call__form_element1_active">Поле обязательно для заполнения</span>
                 </form>
 
@@ -57,7 +59,8 @@
                 <form id="formcall">
                     <input type="text" id="callForm1" name="name" class="call__form_element" placeholder="Имя">
                     <span class="call__form_element1_active">Поле обязательно для заполнения</span>
-                    <input type="text" id="callForm2" name="phonenumber" class="call__form_element" placeholder="+375 ( )">
+                    <input type="text" id="callForm2" name="phonenumber" class="call__form_element"
+                        placeholder="+375 ( )">
                     <span class="call__form_element2_active">Поле обязательно для заполнения</span>
                 </form>
 
@@ -88,28 +91,24 @@
                 </div>
 
                 <form class="pop_up_form__item">
-                    <input type="text" id="pop_up_form1" name="company" class="pop_up_form__element" placeholder="Наименование компании">
+                    <input type="text" id="pop_up_form1" name="company" class="pop_up_form__element"
+                        placeholder="Наименование компании">
                     <span class="call__form_element1_active">Поле обязательно для заполнения</span>
-                    <input type="text" id="pop_up_form2" name="phonenumber" class="pop_up_form__element" placeholder="+375 ( )">
+                    <input type="text" id="pop_up_form2" name="phonenumber" class="pop_up_form__element"
+                        placeholder="+375 ( )">
                     <span class="call__form_element2_active">Поле обязательно для заполнения</span>
-                    <input type="text" id="pop_up_form3" name="part" class="pop_up_form__element" placeholder="Артикул.Название">
+                    <input type="text" id="pop_up_form3" name="part" class="pop_up_form__element"
+                        placeholder="Артикул.Название">
                     <span class="call__form_element3_active">Поле обязательно для заполнения</span>
-                                 
-                    
-                    <span class="input-file">
-                      <input type="file" name="file" id="file">  
-                        Прикрепить файл</span>
 
-                    <!-- <label class="pop_up__file">
-                        <div class="pop_up__file">
+
+                    <span class="input-file">
                         <input type="file" name="file" id="file">
-                        <span>Прикрепить файл</span>
-                        </div>
-                    </label> -->
+                        Прикрепить файл</span>
                     <div class="pop_up__description">
                         Нажимая «Отправить», Вы соглашаетесь с политикой обработки персональных данных
                     </div>
-                    <input type="submit" class="pop_up_form__submit intro__button">
+                    <input type="submit" class="pop_up_form__submit">
                 </form>
             </div>
 
@@ -201,13 +200,7 @@
                     </div>
                 </div>
             </div>
-
-
-            <!--  <div class="intro__img">
-                        <img class="header__intro-pic" src="./assets/desktop/Cat-D10T.png" alt="Cat-D10t">
-                    </div> -->
         </section>
-
 
         <div class="wrapper">
             <section class="about" id="intro">
@@ -317,7 +310,6 @@
 
 
             </section>
-
         </div>
 
         <div class="wrapper">
@@ -345,9 +337,11 @@
                     </div>
                     <form id="formdelivery">
                         <div class="delivery__form_item">
-                            <input type="text" id="deliveryForm1" name="name" class="delivery__form_element" placeholder="Имя">
+                            <input type="text" id="deliveryForm1" name="name" class="delivery__form_element"
+                                placeholder="Имя">
                             <span class="call__form_element1_active">Поле обязательно для заполнения</span>
-                            <input type="text" id="deliveryForm2" name="phonenumber" class="delivery__form_element" placeholder="+375 ( )">
+                            <input type="text" id="deliveryForm2" name="phonenumber" class="delivery__form_element"
+                                placeholder="+375 ( )">
                             <span class="call__form_element1_active">Поле обязательно для заполнения</span>
                         </div>
                     </form>
@@ -366,7 +360,6 @@
 
         <div class="wrapper">
             <section class="help" id="help">
-
                 <div class="help__content">
                     <div class="help__content_wrapper">
 
@@ -395,7 +388,6 @@
 
                     </div>
                 </div>
-
             </section>
         </div>
 
@@ -503,7 +495,6 @@
                     </div>
 
                 </div>
-
             </section>
         </div>
 
@@ -517,14 +508,16 @@
                     </div>
                     <form class="banner-parts__form" id="bannerpartsform">
                         <div class="banner-parts__form_group">
-                            <input type="text" name="phonenumber" id="banner-parts1" class="banner-parts__form_element" placeholder="+375 ( )">
-                        <span class="call__form_element1_active">Поле обязательно для заполнения</span>
+                            <input type="text" name="phonenumber" id="banner-parts1" class="banner-parts__form_element"
+                                placeholder="+375 ( )">
+                            <span class="call__form_element1_active">Поле обязательно для заполнения</span>
                         </div>
                         <div class="banner-parts__form_group">
-                           <input type="text" name="part" id="banner-parts2" class="banner-parts__form_element" placeholder="Артикул/Название">
-                        <span class="call__form_element1_active">Поле обязательно для заполнения</span> 
+                            <input type="text" name="part" id="banner-parts2" class="banner-parts__form_element"
+                                placeholder="Артикул/Название">
+                            <span class="call__form_element1_active">Поле обязательно для заполнения</span>
                         </div>
-                        
+
                     </form>
                     <div class="banner-parts__description">
                         <div>
@@ -536,7 +529,6 @@
                         <a href="#4">Запросить цены</a>
                     </div>
                 </div>
-                
             </section>
         </div>
         <div class="wrapper">
@@ -548,13 +540,8 @@
                 </div>
                 <div class="contact__container">
                     <div class="contact__links">
-
-
                         <div class="contact__item">
-                            <div class="contact__item_pic">
-                               <img src="./assets/desktop/adress.png" alt="adress"> 
-                            </div>
-                            
+                            <img src="./assets/desktop/adress.png" alt="adress">
                             <div class="contact__item_wrapper">
                                 <div class="contact__item_title">
                                     <span>Адрес:</span>
@@ -564,12 +551,8 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="contact__item">
-                            <div class="contact__item_pic">
-                                <img src="./assets/desktop/phone.png" alt="phone">
-                            </div>
-                            
+                            <img src="./assets/desktop/phone.png" alt="phone">
                             <div class="contact__item_wrapper">
                                 <div class="contact__item_title">
                                     <span>Телефон:</span>
@@ -579,12 +562,8 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="contact__item">
-                            <div class="contact__item_pic">
-                              <img src="./assets/desktop/time.png" alt="time">  
-                            </div>
-                            
+                            <img src="./assets/desktop/time.png" alt="time">
                             <div class="contact__item_wrapper">
                                 <div class="contact__item_title">
                                     <span>Время работы:</span>
@@ -594,12 +573,8 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="contact__item">
-                            <div class="contact__item_pic">
-                               <img src="./assets/desktop/email.png" alt="email"> 
-                            </div>
-                            
+                            <img src="./assets/desktop/email.png" alt="email">
                             <div class="contact__item_wrapper">
                                 <div class="contact__item_title">
                                     <span>Электронная почта:</span>
@@ -611,15 +586,12 @@
                         </div>
                     </div>
                     <div class="contact__map">
-
                         <script type="text/javascript" charset="utf-8" async
                             src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0e6961d63269a8839a87ab34a0057e9b65c8e4831735b585a889636e3cd5a877&amp;width=100%&amp;height=auto&amp;lang=ru_RU&amp;scroll=true"></script>
-                        <!-- <img src="./assets/desktop/map.png" alt="map"> -->
                     </div>
                 </div>
             </section>
         </div>
-
     </main>
 
     <footer class="footer">
@@ -636,11 +608,9 @@
                 <a href="https://artcly.by">
                     Создание сайта: ArtCly.by
                 </a>
-
             </div>
         </div>
     </footer>
-
 
     <script src="./src/mobile.js"></script>
     <script src="./src/pop_up.js"></script>

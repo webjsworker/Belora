@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: column;
     word-wrap: break-word;
-    /* font-family: Helvetica, sans-serif; */
+    font-family: Helvetica, sans-serif;
     line-height: 1.2em;
     font-size: 2.95vw;
     font-weight: 700;
@@ -35,7 +35,6 @@
 .intro__button {
     width: 15vw;
     height: 2.5vw;
-    /* padding: 1vw 2.3vw; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,8 +53,7 @@
 .intro__button:focus,
 .intro__button:active {
     box-shadow: 0 0  0.8em rgba(0,0,0,0.5) ;
-    /* opacity: 0.5; */
-    cursor: pointer;
+     cursor: pointer;
 }
 
 .intro__img {

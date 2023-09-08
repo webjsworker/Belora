@@ -11,7 +11,6 @@ class MaillResponse
         $this->result = $result;
         $this->status = $status;
     }
-
 }
 
 
@@ -26,7 +25,6 @@ class MaillResponsePrice
         $this->result = $result;
         $this->status = $status;
     }
-
 }
  
 class MaillResponseHelp
@@ -41,7 +39,6 @@ class MaillResponseHelp
         $this->result = $result;
         $this->status = $status;
     }
-
 }
 ?>
  

@@ -5,15 +5,12 @@
     z-index: 25;
     top: 2%;
     left: 20%;
-    /* font-family: Geneva, Arial, Helvetica, sans-serif; */
+    font-family: Geneva, Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     background-color: white;
     box-shadow: 1vw 1vw 1vw gray;
     display: none;
-    /* background-color: brown; */
-    
-    
 }
 
 .pop_up__close {
@@ -25,7 +22,6 @@
     display: flex;
     align-items: center;
     justify-content: end;
-    /* background-color: yellow; */
 }
 
 .pop_up__close span {
@@ -52,7 +48,6 @@
     align-items: start;
     padding-left: 10vw;
     justify-content: center;
-    /* background-color: yellowgreen; */
 }
 
 .pop_up_form__wrapper {
@@ -61,7 +56,6 @@
     display: flex;
     flex-direction: column;
     margin-left: 1vw;
-    /* background-color: violet; */
 }
 
 .pop_up_form__title {
@@ -75,14 +69,12 @@
     font-weight: 700;
     color: #3223BE;
     position: relative;
-    /* background-color: turquoise; */
 }
 
 .pop_up_form__title span:first-child::after {
     content: "Подбор запчасти по фото";
     color: #F4F4F4;
     position: absolute;
-    /* font-size: 3.4vw; */
     font-size: 3vw;
     font-weight: 700;
     top: -0.1vw;
@@ -106,7 +98,6 @@
     display: flex;
     flex-direction: column;
     gap: 0.5vw;
-    /* background-color: #808080; */
 }
 
 .pop_up_form__element {
@@ -136,7 +127,7 @@
     color: #808080;
 }
 
-.input-file{
+.input-file {
     position: relative;
     width: fit-content;
     padding: 0.5vw 1.70vw;
@@ -148,58 +139,19 @@
     color: #3223BE;
     background-color: white;
     border: 1px solid #3223BE;
-    /* z-index: -1; */
 }
-
-/* .input-file span::after {
-    width: 20vw;
-    content: "Файл не выбран";
-    color: #808080;
-    position: absolute;
-    font-size: 1vw;
-    font-weight: 500;
-    top: 0.5vw;
-    left: 13vw;
-    z-index: -1;
-} */
-
-
 
 .pop_up_form__item input[type=file] {
     position: absolute;
     z-index: 3;
     display: block;
     width: 15vw;
-    opacity:0;
+    opacity: 0;
     width: 9vw;
     height: 3vw;
     transform: scale(1.3);
-    
+
 }
-/* .input-file span {
-	position: relative;
-	display: inline-block;
-	cursor: pointer;
-	outline: none;
-	text-decoration: none;
-	font-size: 14px;
-	vertical-align: middle;
-	color: rgb(255 255 255);
-	text-align: center;
-	border-radius: 4px;
-	background-color: #419152;
-	line-height: 22px;
-	height: 40px;
-	padding: 10px 20px;
-	box-sizing: border-box;
-	border: none;
-	margin: 0;
-	transition: background-color 0.2s;
-} */
-
-
-
-
 
 .pop_up__description {
     font-size: 0.9vw;

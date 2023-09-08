@@ -7,7 +7,6 @@ class Response
         $this->name = $name;
         $this->phonenumber = $phonenumber;
     }
-
 }
 
 class ResponsePrice
@@ -18,7 +17,6 @@ class ResponsePrice
         $this->phonenumber = $phonenumber;
         $this->part = $part;
     }
-
 }
  
 class ResponseHelp
@@ -30,7 +28,6 @@ class ResponseHelp
         $this->phonenumber = $phonenumber;
         $this->part = $part;
     }
-
 }
 
 

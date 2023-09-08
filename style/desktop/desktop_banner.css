@@ -11,9 +11,9 @@
     background: linear-gradient(to right, #FFFFFF 10%, rgba(250, 0, 0, 0) 50%), 
     url(../../assets/desktop/banner2.png);
     background-repeat: no-repeat;
-    background-size: 41% 100%;  /* background-size: 41% 100%; */
+    background-size: 41% 100%; 
     background-position: right;
-} /* rgba(250, 247, 247, 100), rgba(250, 0, 0, 0)) */
+} 
 
 .banner__title div {
     display: flex;

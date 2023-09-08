@@ -10,7 +10,6 @@ class MailBodyCall
         $this->strname = "Имя:";
         $this->strphone = 'Телефон:';
     }
-
 }
 
 class MailBodyCallPrice
@@ -24,7 +23,6 @@ class MailBodyCallPrice
         $this->strphone = "Телефон:";
         $this->strpart = 'Артикул:';
     }
-
 }
 class MailBodyCallHelp
 {
@@ -39,7 +37,6 @@ class MailBodyCallHelp
         $this->strphone = "Телефон:";
         $this->strpart = 'Артикул:';
     }
-
 }
 
 ?>

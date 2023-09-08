@@ -8,9 +8,7 @@ class User
         $this->phonenumber = $phonenumber;
         $this->form = $form;
         $this->title = 'Заказать звонок';
-        
     }
-
 }
 
 class UserPrice
@@ -22,9 +20,7 @@ class UserPrice
         $this->part = $part;
         $this->form = $form;
         $this->title = 'Запросить цены';
-       
     }
-
 }
 
 class UserHelpFile
@@ -38,8 +34,6 @@ class UserHelpFile
         $this->form = $form;
         $this->title = 'Подбор по фото';
         $this->file = $_FILES["file"];
-       
     }
-
 }
 ?>
