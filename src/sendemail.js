@@ -21,6 +21,7 @@ function CheckForm(formObj, form) {
         }
         ++count
     }
+    formstatus = false
 }
 
 function CheckFormFile(formObj, form) {
@@ -38,6 +39,7 @@ function CheckFormFile(formObj, form) {
         }
         ++count
     }
+    formstatus = false
 }
 
 
@@ -51,10 +53,11 @@ async function PostUser(form, prop, value, thanks, element) {
     let result = await request.json();
     CheckForm(result, form)
     if (result.result == 'success') {
+        callstatus = false;
         form.reset()
         HiddenElement(element)
         ShowElement(thanks)
-    }
+    }    
 }
 
 

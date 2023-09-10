@@ -16,6 +16,8 @@ priceclose.addEventListener('click', function () {
 })
 
 pricebutton.addEventListener('click', function () {
-    PostUser(formprice, PRICEPROP, PRICEVALUE, thanks, price);
-
+    if(!formstatus){
+        formstatus = true
+        PostUser(formprice, PRICEPROP, PRICEVALUE, thanks, price);
+    }
 })

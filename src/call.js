@@ -7,13 +7,17 @@ let formcall = document.getElementById('formcall')
 
 const CALLPROP = 'form';
 const CALLVALUE = 'call'
+let formstatus = false;
 
 orderPhoneCall.addEventListener('click', function () {
     call.style.display = "block";
 })
 
 callbutton.addEventListener('click', function () {
-    PostUser(formcall, CALLPROP, CALLVALUE, thanks, call);
+    if(!formstatus){
+        formstatus = true
+         PostUser(formcall, CALLPROP, CALLVALUE, thanks, call);
+    }
 })
 
 callclose.addEventListener('click', function () {

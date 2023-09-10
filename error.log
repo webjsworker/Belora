@@ -802,3 +802,27 @@ pm_winnt:notice] [pid 12940:tid 400] AH00354: Child: Starting 64 worker threads.
 [Thu Sep 07 19:08:59.171708 2023] [mpm_winnt:notice] [pid 5592:tid 408] AH00418: Parent: Created child process 1892
 [Thu Sep 07 19:09:00.702957 2023] [mpm_winnt:notice] [pid 1892:tid 412] AH00354: Child: Starting 64 worker threads.
 [Thu Sep 07 21:19:09.037769 2023] [php:error] [pid 1892:tid 1056] [client ::1:59845] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\\localhost\\phpmailer\\SMTP.php on line 1, referer: http://localhost/
+[Sun Sep 10 18:20:39.163982 2023] [mpm_winnt:notice] [pid 4228:tid 376] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sun Sep 10 18:20:39.163982 2023] [mpm_winnt:notice] [pid 4228:tid 376] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sun Sep 10 18:20:39.163982 2023] [core:notice] [pid 4228:tid 376] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Sep 10 18:20:39.204336 2023] [mpm_winnt:notice] [pid 4228:tid 376] AH00418: Parent: Created child process 5136
+[Sun Sep 10 18:20:40.135469 2023] [mpm_winnt:notice] [pid 5136:tid 392] AH00354: Child: Starting 64 worker threads.
+[Sun Sep 10 18:20:40.637319 2023] [mpm_winnt:notice] [pid 4228:tid 376] AH00428: Parent: child process 5136 exited with status 1 -- Restarting.
+[Sun Sep 10 18:20:40.674778 2023] [mpm_winnt:notice] [pid 4228:tid 376] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sun Sep 10 18:20:40.674778 2023] [mpm_winnt:notice] [pid 4228:tid 376] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sun Sep 10 18:20:40.674778 2023] [core:notice] [pid 4228:tid 376] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Sep 10 18:20:40.677767 2023] [mpm_winnt:notice] [pid 4228:tid 376] AH00418: Parent: Created child process 1896
+[Sun Sep 10 18:20:41.208060 2023] [mpm_winnt:notice] [pid 1896:tid 436] AH00354: Child: Starting 64 worker threads.
+[Sun Sep 10 18:20:44.588484 2023] [mpm_winnt:crit] [pid 1896:tid 436] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sun Sep 10 18:20:44.588484 2023] [mpm_winnt:warn] [pid 1896:tid 1144] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Sep 10 18:20:44.588484 2023] [mpm_winnt:warn] [pid 1896:tid 444] (OS 995)The I/O operation has been aborted because of either a thread exit or an application request.  : AH00341: winnt_accept: Asynchronous AcceptEx failed.
+[Sun Sep 10 18:20:58.872180 2023] [core:warn] [pid 6740:tid 408] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Sep 10 18:20:58.909624 2023] [mpm_winnt:notice] [pid 6740:tid 408] AH00455: Apache/2.4.57 (Win64) PHP/8.2.10 configured -- resuming normal operations
+[Sun Sep 10 18:20:58.909624 2023] [mpm_winnt:notice] [pid 6740:tid 408] AH00456: Apache Lounge VS17 Server built: Aug  2 2023 17:28:16
+[Sun Sep 10 18:20:58.909624 2023] [core:notice] [pid 6740:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Sep 10 18:20:58.914607 2023] [mpm_winnt:notice] [pid 6740:tid 408] AH00418: Parent: Created child process 11940
+Apache server shutdown initiated...
+pm_winnt:notice] [pid 11940:tid 400] AH00354: Child: Starting 64 worker threads.
+[Sun Sep 10 20:34:25.953032 2023] [mpm_winnt:notice] [pid 6740:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Sep 10 20:34:27.968051 2023] [mpm_winnt:notice] [pid 11940:tid 400] AH00364: Child: All worker threads have exited.
+[Sun Sep 10 20:34:28.023955 2023] [mpm_winnt:notice] [pid 6740:tid 408] AH00430: Parent: Child process 11940 exited successfully.
