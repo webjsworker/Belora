@@ -61,7 +61,7 @@ function SendMail($user, $userstatus)
         $mail->setFrom('s44tptestphp@gmail.com', 'Заказ Белора'); // Адрес самой почты и имя отправителя
         // Получатель письма
         $mail->addAddress('leshamaster@yandex.by');
-        //$mail->addAddress('youremail@gmail.com'); // Ещё один, если нужен
+        $mail->addAddress('s44tptestphp@rambler.ru'); // Ещё один, если нужен
        
         if (!empty($file['name'])) {
                 $uploadfile = tempnam(sys_get_temp_dir(), sha1($_FILES['file']['name']));
