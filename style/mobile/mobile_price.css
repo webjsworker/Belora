@@ -1,6 +1,6 @@
 .price {
     width: 100vw;
-    height: 100vw;
+    height: auto;
     position: fixed;
     padding: 8vw 7vw;
     top: 1%;
@@ -12,19 +12,19 @@
 }
 
 .price__close {
-    width: 7vw;
-    height: 6vw;
+    width: 15vw;
+    height: 10vw;
     position: absolute;
     top: 1.5vw;
     right: 1vw;
     display: flex;
     align-items: center;
     justify-content: end;
-}
+ }
 
 .price__close span {
-    width: 3.8vw;
-    height: 0.35vw;
+    width: 8vw;
+    height: 0.5vw;
     background-color: #3223BE;
 }
 
@@ -45,8 +45,15 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    margin-top: 5vw;
+    gap: 3vw;
     padding: 1.5vw 3.7vw;
     border: 1px solid #DEDEDE;
+    }
+#formprice{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
 }
 
 .price__form_title {
@@ -84,7 +91,7 @@
 }
 
 .price__form_element::-webkit-input-placeholder {
-    font-size: 0.8em;
+    font-size: 3vw;
     font-weight: 300;
 }
 
@@ -99,9 +106,9 @@
 }
 
 .price__form_text p {
-    font-size: 0.6em;
+    font-size: 3.5vw;
 }
 
 .price__form_link {
-    margin-top: 0.9vw;
+    margin-top: 1vw;
 }

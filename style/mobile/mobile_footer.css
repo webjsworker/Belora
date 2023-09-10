@@ -24,6 +24,10 @@
     font-size: 3.5vw;
     font-weight: 700;
 }
+.footer__label a{
+    text-decoration: none;
+    color: white;
+}
 
 .footer__about {
     display: flex;
@@ -31,6 +35,7 @@
     flex-direction: column;
     justify-content: end;
     align-items: end;
+    gap: 2vw;
     font-size: 3vw;
 }
 
@@ -40,7 +45,9 @@
 
 .footer__about a {
     letter-spacing: 0.03em;
-    font-size: 0.8vw;
+    font-size: 3vw;
     color: white;
+    margin-right: 30vw;
     text-decoration: none;
+    /* background-color: yellowgreen; */
 }

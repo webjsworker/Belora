@@ -1,6 +1,6 @@
 .call {
     width: 100vw;
-    height: 95vw;
+    height: auto;
     position: fixed;
     padding: 8vw 7vw;
     top: 3vw;
@@ -12,19 +12,20 @@
 }
 
 .call__close {
-    width: 8vw;
-    height: 8vw;
+    width: 15vw;
+    height: 10vw;
     position: absolute;
     top: 1.5vw;
     right: 1vw;
     display: flex;
     align-items: center;
     justify-content: end;
+    
 }
 
 .call__close span {
-    width: 10vw;
-    height: 0.2vw;
+    width: 8vw;
+    height: 0.5vw;
     background-color: #3223BE;
 }
 
@@ -40,15 +41,16 @@
 
 .call__form {
     width: 90vw;
-    height: 80vw;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     margin-top: 5vw;
+    gap: 3vw;
     padding: 1.5vw 3.7vw;
     border: 1px solid #DEDEDE;
-}
+  }
 
 .call__form_title {
     font-size: 5vw;
@@ -65,7 +67,7 @@
 }
 
 .call__form_description span {
-    width: 100%;
+     width: 100%;
 }
 
 .call__form_item {
@@ -108,7 +110,7 @@
 }
 
 .call__form_text p {
-    font-size: 0.5em;
+    font-size: 3.5vw;
 }
 
 .call__form_link {
@@ -121,8 +123,10 @@
 }
 
 .call__form_element1_active,
-.call__form_element2_active {
+.call__form_element2_active,
+.call__form_element3_active {
     visibility: hidden;
-    font-size: 0.7em;
+    /* visibility: visible; */ 
+    font-size: 3vw;
     color: red;
 }

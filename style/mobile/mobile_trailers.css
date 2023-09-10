@@ -52,9 +52,9 @@
     color: #F4F4F4;
     position: absolute;
     word-wrap: break-word;
-    font-size: 8vw;
+    font-size: 6vw;
     font-weight: 900;
-    top: 0.8vw;
+    top: 3vw;
     left: 0;
     z-index: -10;
 }
@@ -63,9 +63,9 @@
     content: "и запчастей к ним";
     color: #F4F4F4;
     position: absolute;
-    font-size: 8vw;
+    font-size: 6vw;
     font-weight: 900;
-    top: 15vw;
+    top: 17vw;
     left: 0;
     z-index: -10;
 }
