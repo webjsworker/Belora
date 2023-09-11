@@ -1,0 +1,45 @@
+@import url("./tablet_header.css");
+@import url("./tablet_intro.css");
+@import url("./tablet_about.css");
+@import url("./tablet_parts.css");
+@import url("./tablet_trailers.css");
+@import url("./tablet_banner.css");
+@import url("./tablet_delivery.css");
+@import url("./tablet_help.css");
+@import url("./tablet_brand.css");
+@import url("./tablet_banner-parts.css");
+@import url("./tablet_contact.css");
+@import url("./tablet_footer.css");
+@import url("./tablet_pop-up.css");
+@import url("./tablet_thanks.css");
+@import url("./tablet_price.css");
+@import url("./tablet_call.css");
+
+.wrapper {
+    width: 95vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    
+}
+
+.container {
+    max-width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    max-width: 1920px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

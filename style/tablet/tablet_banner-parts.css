@@ -1,0 +1,86 @@
+.banner-parts {
+    width: 100%;
+    min-height: 150vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: start;
+    position: relative;
+    margin-top: 32vw;
+    border: 1px solid #DEDEDE;
+
+    background: linear-gradient(to bottom, #FFFFFF 10%, rgba(250, 0, 0, 0) 50%),
+    url(../../assets/desktop/banner-parts.png);
+   background-repeat: no-repeat;
+   background-size: 100% 35%;
+   background-position: bottom;
+
+     
+}
+
+.banner-parts__container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 3vw;
+    gap: 1vw;
+    margin-left: 1.2vw;
+}
+
+.banner-parts__title div {
+    display: flex;
+    flex-direction: column;
+    margin: 3vw;
+    font-size: 7vw;
+    font-weight: 700;
+}
+
+.banner-parts__form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 3vw;
+    gap: 2vw;
+}
+
+.banner-parts__form_element {
+    width: 100%;
+    height: 15vw;
+    padding-left: 1vw;
+    opacity: 0.7;
+}
+
+.banner-parts__description {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+    color: #808080;
+}
+
+.banner-parts__link {}
+
+.banner-parts__pic {
+    width: 100;
+    height: auto;
+    position: relative;
+    line-height: 0;
+}
+
+.banner-parts__pic img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-parts__pic:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient(to bottom, rgb(250, 247, 247), rgba(255, 0, 0, 0));
+}

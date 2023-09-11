@@ -1,0 +1,106 @@
+.help {
+    width: 100%;
+    height: 130vw;
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    border: 1px solid #DEDEDE;
+    margin-top: 15vw;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/desktop/help.png);
+    background-size: 100% auto;
+    background-position: bottom;
+}
+
+
+.help__content {
+    width: 100%;
+    height: auto;
+    margin: 3vw;
+}
+
+.help__content_wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.help__descriptions {
+    font-size: 4.5vw;
+    margin-top: 7vw;
+}
+
+.help__descriptions p {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+
+.help__link {}
+
+.help__link a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.help__link img {
+    width: 5vw;
+    height: auto;
+    margin-left: 3vw;
+}
+
+.help__title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    color: #3223BE;
+    font-size: 7vw;
+    font-weight: 500;
+}
+
+.help__title span:first-child::after {
+    width: 100%;
+    content: "Подбор запчасти по фото";
+    color: #F4F4F4;
+    position: absolute;
+    font-size: 8vw;
+    font-weight: 900;
+    top: 0.8vw;
+    left: 0;
+    z-index: -10;
+}
+
+.help__title span:last-child::after {
+    content: "или артикулу";
+    color: #F4F4F4;
+    position: absolute;
+    font-size: 8vw;
+    font-weight: 900;
+    left: 0;
+    top: 55%;
+    z-index: -10;
+}
+
+
+.help__img {
+    width: 50vw;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.help__pic {
+    width: 100%;
+    height: auto;
+}

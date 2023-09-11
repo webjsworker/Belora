@@ -1,0 +1,59 @@
+.intro {
+    width: 100vw;
+    height: 160vw;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/desktop/Cat-D10T.png);
+    background-size: 130vw auto;
+    background-position: bottom right;
+}
+
+.intro__item {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3vw;
+}
+
+.intro__text {
+    width: 80vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro__text p {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    margin-top: 21vw;
+    font-size: 9vw;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.intro__button {
+    width: fit-content;
+    height: 10vw;
+    padding: 8vw 16vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5vw 0;
+    background-color: #3223BE;
+    transition-duration: 0.5s;
+}
+
+.intro__button a {
+    text-decoration: none;
+    font-size: 5vw;
+    font-weight: 500;
+    color: white;
+}
+
+.intro__button:hover,
+.intro__button:focus,
+.intro__button:active {
+    box-shadow: 0 0  0.8em rgba(0,0,0,0.5) ;
+    cursor: pointer;
+}

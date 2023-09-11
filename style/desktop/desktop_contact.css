@@ -51,6 +51,14 @@
     flex-direction: row;
     gap: 0.2vw;
 }
+.contact__item-pic{
+    display: flex;
+    align-items: start;
+  width: 1.5vw;
+  height: auto;
+  margin-right: 0.5vw;
+ /*  background-color: rgb(139, 143, 132); */
+}
 
 .contact__item_title {
     display: flex;
@@ -59,9 +67,11 @@
     gap: 1vw;
 }
 
-.contact__item img {
-    width: 1.3vw;
-    height: 1.3vw;
+.contact__item-pic img {
+    width: 100%;
+    /* width: 8vw; */
+    height: auto;
+    /* background-color: yellowgreen; */
 }
 
 .contact__item_wrapper {
@@ -79,7 +89,7 @@
 
 .contact__item_text {
     font-size: 1vw;
-    letter-spacing: 0.06em;
+    /* letter-spacing: 0.06em; */
     font-weight: 700;
 }
 
