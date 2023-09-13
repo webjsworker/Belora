@@ -16,8 +16,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3vw;
+    padding-left: 3vw;
     color: white;
+    /* background-color: yellowgreen; */
 }
 
 .footer__label {
