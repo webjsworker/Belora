@@ -20,6 +20,7 @@
     position: relative;
     margin: 3vw;
     font-size: 5vw;
+    font-weight: 700;
     color: #3223BE;
     /* background-color: antiquewhite; */
 }
@@ -29,12 +30,12 @@
     color: #F4F4F4;
     position: absolute;
     width: 150%;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 900;
     top: 0.5vw;
     left: 0;
     z-index: -10;
-   /*  background-color: violet; */
+    /* background-color: violet; */
 }
 
 

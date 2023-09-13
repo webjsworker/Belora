@@ -8,6 +8,7 @@
     /* padding: 3vw; */
     margin-top: 5vw;
     padding-bottom: 10vw;
+    padding-left: 2vw;
     border: 1px solid #DEDEDE;
     background-repeat: no-repeat;
     background-image: url(../../assets/desktop/treiler.png);
@@ -56,9 +57,13 @@
     flex-direction: row;
     color: #3223BE;
     font-size: 4.5vw;
+    font-weight: 700;
     margin-bottom: 5vw;
+    /* margin-left: 3vw; */
+    margin-top: 2vw;
     word-wrap: break-word;
     position: relative;
+    /* background-color: yellowgreen; */
 }
 
 .trailers__title span:first-child::after {
@@ -66,18 +71,19 @@
     color: #F4F4F4;
     position: absolute;
     word-wrap: break-word;
-    font-size: 4.2vw;
+    font-size: 5vw;
     font-weight: 900;
-    top: 3vw;
+    top: 2vw;
     left: 0;
     z-index: -10;
+    /* background-color: yellowgreen; */
 }
 
 .trailers__title span:last-child::after {
     content: "и запчастей к ним";
     color: #F4F4F4;
     position: absolute;
-    font-size: 4.2vw;
+    font-size: 5vw;
     font-weight: 900;
     top: 7vw;
     left: 0;

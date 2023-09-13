@@ -21,11 +21,13 @@
     flex-direction: row;
     margin-top: 3.5vw;
     font-weight: 700;
+    /* background-color: yellowgreen; */
 }
 
 .banner__title div span {
     margin-left: 3vw;
     font-size: 5vw;
+    font-weight: 700;
 }
 
 .banner__pic {

@@ -31,6 +31,8 @@
 }
 
 .footer__about {
+    width: 70vw;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -38,7 +40,7 @@
     align-items: end;
     gap: 2vw;
     font-size: 2vw;
-    /* background-color: yellowgreen; */
+    
 }
 
 .footer__about span:first-child {
@@ -49,10 +51,11 @@
 }
 
 .footer__about a {
-    letter-spacing: 0.03em;
+    display: flex;
+    /* letter-spacing: 0.03em; */
     font-size: 2vw;
     color: white;
-    margin-right: 30vw;
+    margin-right: 40vw;
     text-decoration: none;
     /* background-color: yellowgreen; */
 }
