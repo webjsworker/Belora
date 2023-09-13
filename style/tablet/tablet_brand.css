@@ -2,6 +2,7 @@
     width: 100%;
     height: auto;
     margin-top: 16vw;
+    /* background-color: yellowgreen; */
 }
 
 .brand__title {
@@ -10,7 +11,7 @@
     flex-direction: column;
     position: relative;
     color: #3223BE;
-    font-size: 7vw;
+    font-size: 5vw;
     margin: 3vw 0;
 }
 
@@ -18,7 +19,7 @@
     content: "Работаем с брендами";
     color: #F4F4F4;
     position: absolute;
-    font-size: 8vw;
+    font-size: 6vw;
     font-weight: 900;
     left: 0;
     top: 1vw;
@@ -42,11 +43,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    /* background-color: yellowgreen; */
 }
 
 .brand__item {
     width: 30%;
     height: auto;
+    /* background-color: yellowgreen; */
 }
 
 .brand__logo-pic {

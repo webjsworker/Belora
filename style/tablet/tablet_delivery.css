@@ -4,41 +4,47 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    gap: 2vw;
     margin-top: 15vw;
+    /* background-color: yellow; */
     }
 
 .delivery__content {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
     width: 100%;
     height: auto;
 }
 
 .delivery__title {
     color: #3223BE;
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: 700;
-    margin: 3vw;
+    /* margin: 3vw; */
     position: relative;
 }
 
 .delivery__title::after {
-    width: 30vw;
+    width: 80vw;
     content: "Оплата и доставка";
     color: #F4F4F4;
     position: absolute;
-    font-size: 2.8vw;
+    font-size: 5.5vw;
     font-weight: 900;
-    top: 1vw;
+    top: 2vw;
     left: 0;
     z-index: -10;
 }
 
 .delivery__text {
-    font-size: 4vw;
+    font-size: 3vw;
     color: #4A4A4A;
+    /* background-color: yellowgreen; */
 }
 
 .delivery__text p {
-    margin-top: 3%;
+    margin-top: 3vw;
 }
 
 .delivery__img {
@@ -65,14 +71,15 @@
 }
 
 .delivery__form_title {
-    font-size: 7vw;
+    font-size: 5vw;
     font-weight: 600;
 }
 
 .delivery__form_description {
     display: flex;
     flex-direction: column;
-    font-size: 4.5vw;
+    gap: 1vw;
+    font-size: 3.5vw;
     margin-top: 5vw;
 }
 
@@ -89,11 +96,14 @@
     width: 80vw;
     height: 15vw;
     padding-left: 1vw;
+    border: 1px solid #808080;
+    font-size: 5vw;
     opacity: 0.7;
 }
 
 .delivery__form_element::-webkit-input-placeholder {
-    font-size: 5vw;
+    font-size: 4vw;
+    padding-left: 2vw;
     font-weight: 300;
 }
 
@@ -102,7 +112,8 @@
     display: flex;
     flex-direction: column;
     gap: 1vw;
-    font-size: 3.5vw;
+    font-size: 3vw;
     margin-top: 2vw;
     color: #808080;
+    /* background-color: yellowgreen; */
 }

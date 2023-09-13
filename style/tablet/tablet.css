@@ -16,12 +16,12 @@
 @import url("./tablet_call.css");
 
 .wrapper {
-    width: 95vw;
+    width: 97vw;
     height: auto;
     display: flex;
     align-items: center;
     margin: 0 auto;
-    font-family: Geneva, Arial, Helvetica, sans-serif;
+    /* font-family: Geneva, Arial, Helvetica, sans-serif; */
     
 }
 

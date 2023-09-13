@@ -36,16 +36,20 @@
     justify-content: end;
     align-items: end;
     gap: 2vw;
-    font-size: 3vw;
+    font-size: 2vw;
+    /* background-color: yellowgreen; */
 }
 
 .footer__about span:first-child {
-    width: 30vw;
+    
+    
+    width: 25vw;
+    /* background-color: aqua; */
 }
 
 .footer__about a {
     letter-spacing: 0.03em;
-    font-size: 3vw;
+    font-size: 2vw;
     color: white;
     margin-right: 30vw;
     text-decoration: none;

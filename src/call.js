@@ -4,6 +4,7 @@ let callbutton = document.querySelector('.call__form_link');
 let callclose = document.querySelector('.call__close');
 let orderPrice = document.querySelector('.intro__but');
 let formcall = document.getElementById('formcall')
+let phoneicon = document.querySelector('.header__menu_mobile_call');
 
 const CALLPROP = 'form';
 const CALLVALUE = 'call'
@@ -25,3 +26,6 @@ callclose.addEventListener('click', function () {
     CleanForm(formcall)
 })
 
+phoneicon.addEventListener('click', function () {
+    call.style.display = "block";
+  })

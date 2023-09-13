@@ -7,7 +7,7 @@
     top: 5%;
     left: 5%;
     background-color: white;
-    display: none;
+    /* display: none; */
     box-shadow: 1vw 1vw 1vw gray;
 }
 
@@ -19,13 +19,15 @@
     align-items: center;
     justify-content: center;
     gap: 3vw;
+    margin-top: 12vw;
+    /* background-color: yellowgreen; */
 }
 
 .thanks_title {
     display: flex;
     flex-wrap: wrap;
     margin: 5vw 2vw;
-    font-size: 7vw;
+    font-size: 5vw;
     color: #3223BE;
     position: relative;
 }
@@ -33,19 +35,23 @@
 
 
 .thanks_title::after {
-    width: 40vw;
+    width: 80vw;
     content: "Спасибо за вашу заявку!";
     color: #F4F4F4;
     position: absolute;
-    font-size: 3vw;
+    font-size: 5.5vw;
     font-weight: 900;
     top: 1vw;
     left: 0;
     z-index: -1;
+    /* background-color: yellowgreen; */
+}
+.thanks_text{
+    font-size: 3vw;
 }
 
 .thanks_link {
-    width: fit-content;
+   /*  width: fit-content;
     height: 10vw;
     padding: 8vw 16vw;
     display: flex;
@@ -53,7 +59,7 @@
     justify-content: center;
     margin: 5vw 0;
     background-color: #3223BE;
-    transition-duration: 0.5s;
+    transition-duration: 0.5s; */
 }
 
 .thanks_link a {

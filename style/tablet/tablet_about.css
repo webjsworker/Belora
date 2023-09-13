@@ -2,21 +2,26 @@
     width: 100%;
     height: auto;
     margin-top: 12.5vw;
+    /* background-color: yellowgreen; */
 }
 
 .about__item {
+
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     font-size: 2vw;
+    /* background-color: bisque; */
 }
 
 .about__item div:first-child {
     position: relative;
     margin: 3vw;
-    font-size: 7vw;
+    font-size: 5vw;
     color: #3223BE;
+    /* background-color: antiquewhite; */
 }
 
 .about__item div:first-child::after {
@@ -24,11 +29,12 @@
     color: #F4F4F4;
     position: absolute;
     width: 150%;
-    font-size: 8vw;
+    font-size: 7vw;
     font-weight: 900;
     top: 0.5vw;
     left: 0;
     z-index: -10;
+   /*  background-color: violet; */
 }
 
 
@@ -40,7 +46,13 @@
     flex-direction: column;
     align-items: center;
     gap: 3vw;
-    font-size: 4.841vw;
+    font-size: 3.5vw;
     color: #4A4A4A;
+    /* background-color: aqua; */
 
 }
+
+/* .title p {
+    width: 100%;
+    height: ;
+} */

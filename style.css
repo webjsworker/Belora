@@ -1,6 +1,7 @@
 @import url("./style/reset.css");
+@import url("./style/fonts.css");
 @import url("./style/common.css");
 
-@import url("./style/desktop/desktop.css") (max-width: 1920px) and (min-width: 321px);
-/* @import url("./style/tablet/tablet.css") (max-width: 1079px) and (min-width: 321px); */
+@import url("./style/desktop/desktop.css") (max-width: 1920px) and (min-width: 1080px);
+@import url("./style/tablet/tablet.css") (max-width: 1079px) and (min-width: 321px);
 @import url("./style/mobile/mobile.css")  (max-width: 320px);

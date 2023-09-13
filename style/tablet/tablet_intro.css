@@ -1,10 +1,11 @@
 .intro {
     width: 100vw;
-    height: 160vw;
+    height: 125vw;
     background-repeat: no-repeat;
     background-image: url(../../assets/desktop/Cat-D10T.png);
     background-size: 130vw auto;
     background-position: bottom right;
+    /* background-color: yellowgreen; */
 }
 
 .intro__item {
@@ -27,7 +28,7 @@
     flex-direction: column;
     word-wrap: break-word;
     margin-top: 21vw;
-    font-size: 9vw;
+    font-size: 5vw;
     line-height: 1.2em;
     font-weight: 700;
 }
@@ -35,7 +36,7 @@
 .intro__button {
     width: fit-content;
     height: 10vw;
-    padding: 8vw 16vw;
+    padding: 5vw 10vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,7 +47,7 @@
 
 .intro__button a {
     text-decoration: none;
-    font-size: 5vw;
+    font-size: 3vw;
     font-weight: 500;
     color: white;
 }

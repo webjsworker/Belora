@@ -30,7 +30,7 @@
 }
 
 .help__descriptions {
-    font-size: 4.5vw;
+    font-size: 3vw;
     margin-top: 7vw;
 }
 
@@ -61,7 +61,7 @@
     flex-direction: column;
     position: relative;
     color: #3223BE;
-    font-size: 7vw;
+    font-size: 5vw;
     font-weight: 500;
 }
 
@@ -70,7 +70,7 @@
     content: "Подбор запчасти по фото";
     color: #F4F4F4;
     position: absolute;
-    font-size: 8vw;
+    font-size: 6vw;
     font-weight: 900;
     top: 0.8vw;
     left: 0;
@@ -81,7 +81,7 @@
     content: "или артикулу";
     color: #F4F4F4;
     position: absolute;
-    font-size: 8vw;
+    font-size: 6vw;
     font-weight: 900;
     left: 0;
     top: 55%;

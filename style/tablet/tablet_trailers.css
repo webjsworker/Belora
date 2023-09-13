@@ -1,24 +1,37 @@
 .trailers {
     width: 100%;
-    height: 130vw;
+    height: auto;
     position: relative;
     display: flex;
-    padding: 3vw;
+    /* flex-direction: column; */
+    /* gap: 3vw; */
+    /* padding: 3vw; */
     margin-top: 5vw;
+    padding-bottom: 10vw;
     border: 1px solid #DEDEDE;
+    background-repeat: no-repeat;
+    background-image: url(../../assets/desktop/treiler.png);
+    background-size: 90vw 50vw;
+    background-position: bottom;
 }
 
 
 .trailers__content {
     width: 100%;
-    height: 70vw;
+    height: auto;
+    /* background-color: aqua; */
 }
 
 .trailers__content_wrapper {
     width: 100%;
-    height: auto;
+    height: 100vw;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    position: relative;
+    /* gap: 3vw; */
+    /* background-color: rgb(222, 222, 228); */
 }
 
 .trailers__descriptions {
@@ -34,7 +47,7 @@
 }
 
 .trailers__descriptions p span {
-    font-size: 4.5vw;
+    font-size: 3vw;
 }
 
 .trailers__title {
@@ -42,7 +55,8 @@
     flex-wrap: wrap;
     flex-direction: row;
     color: #3223BE;
-    font-size: 7vw;
+    font-size: 4.5vw;
+    margin-bottom: 5vw;
     word-wrap: break-word;
     position: relative;
 }
@@ -52,7 +66,7 @@
     color: #F4F4F4;
     position: absolute;
     word-wrap: break-word;
-    font-size: 6vw;
+    font-size: 4.2vw;
     font-weight: 900;
     top: 3vw;
     left: 0;
@@ -63,19 +77,31 @@
     content: "и запчастей к ним";
     color: #F4F4F4;
     position: absolute;
-    font-size: 6vw;
+    font-size: 4.2vw;
     font-weight: 900;
-    top: 17vw;
+    top: 7vw;
     left: 0;
     z-index: -10;
+    /* color: rebeccapurple; */
 }
 
 
 .trailers__img {
-    width: 85vw;
-    height: auto;
-    margin-top: -4vw;
+    display: none;
+    
+    width: 80vw;
+    height: 20vw;
+    /* margin-top: -4vw; */
+    background-color: violet;
+    /* display: none; */
+    /* z-index: 25; */
 }
+/* .trailers__pic{
+    width: 100;
+    height: 20vw;
+    background-color: violet;
+} */
+
 
 .trailers__img img {
     width: 100%;
@@ -83,5 +109,6 @@
 }
 
 .trailers__link {
-    margin-top: -5vw;
+    margin-bottom: 5vw;
+    /* margin-top: -5vw; */
 }
