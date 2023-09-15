@@ -20,8 +20,13 @@
     gap: 2vw;
 }
 
+.header__logo {
+    width: 14vw;
+    height: 3vw;
+}
+
 .header__logo-pic {
-    width: 12.5vw;
+    width: 100%;
     height: auto;
     transition-duration: 0.5s;
 }
